@@ -14,10 +14,9 @@ Contaminated DNA-sample
 Background
 ~~~~~~~~~~
 
-This use case captures two different relations between a determination
-and a set of physical objects: a determination may *apply to*
-one set of objects, but at the same time be *based on* only a subset of
-the first set.
+This use case captures two different relations between determination and
+physical objects: a determination may *apply to* one set of objects, but
+at the same time be *based on* only a subset of the first set.
 
 
 Scope and prevalence
