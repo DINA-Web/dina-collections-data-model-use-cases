@@ -49,5 +49,31 @@ Model treatment
 Remarks
 ~~~~~~~
 
+
+Sending part of a preparation on loan
+-------------------------------------
+
+Background
+~~~~~~~~~~
+
+
+Scope and prevalence
+~~~~~~~~~~~~~~~~~~~~
+
+Common in collections of varous kinds.
+
+
+Use case description
+~~~~~~~~~~~~~~~~~~~~
+
+#. Two fishes of the same species are captured during the same collecting
+   event and placed in a jar of alcohol.
+#. At the museum, the jar is labeled with a catalog number.
+#. One fish is then taken out of the jar, labled with an additional
+   ID-tag, and sent out on loan.
+#. When the loaned material is returned, the fish is put back into
+   the original jar again.
+
+
 Remarks
 ~~~~~~~
