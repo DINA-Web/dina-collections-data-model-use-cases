@@ -7,8 +7,7 @@ Collected use cases for the development of the DINA-Web information model.
 
 1. Title
 2. Short background/introduction
-3. Prevalence (is the use case common or rare?)
-4. Scope (is the use case relevant to multiple or only to certain disciplines?)
-5. Use case description
-6. Model treatment (how is the use case handled by different models?)
-7. Remarks
+3. Scope and prevalence (is the use case common or rare? is it relevant to multiple or only certain disciplines?)
+4. Use case description
+5. Model treatment (how is the use case handled by different information models?)
+6. Remarks
