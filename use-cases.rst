@@ -3,6 +3,7 @@ Use cases
 
 
 .. contents:: Table of contents
+   :depth: 1
    :backlinks: none
    :local:
 
