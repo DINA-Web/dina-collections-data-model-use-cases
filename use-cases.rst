@@ -13,8 +13,8 @@ Use cases
 Contaminated DNA-sample
 -----------------------
 
-Background
-~~~~~~~~~~
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
 
 This use case involves two kinds of relations between determination and
 physical object: a determination may *apply to* one set of objects, but
@@ -68,8 +68,13 @@ support in order to minimize errors in biological collections.
 Sending part of a preparation on loan
 -------------------------------------
 
-Background
-~~~~~~~~~~
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Some collections send only part of the stored thing on loan. This is
+often the case when there are many specimens of the same kind.
+Creating separate preparations for every loaned object would require
+much space and a lot of extra work for the curators.
 
 
 Use case description
@@ -84,6 +89,19 @@ Use case description
 #. When the loaned material is returned, the curator put it back
    into the original jar again.
 
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+Each fish represents one material sample and one identifiable unit.
+The two identifiable units belong to the same individual group and
+thus share the determination. The two material samples belong to the
+same preparation, which is the jar and its content.
+
+The material sample corresponding to the fish sent out on loan constitutes
+the transaction unit. This means that no new preparation need to be created 
+in order to complete the loan. When the material comes back, the loan is
+closed and the fish is put back into its original preparation, i.e. the jar.
 
 Remarks
 ~~~~~~~
