@@ -52,14 +52,16 @@ All 4 identifiable units belong to the same individual group,
 and thus share the two determinations. But in addition to that, the
 determination to species X *is based on* the identifiable unit for
 sample A, whereas the determination to species Y *is based on* both
-samples B and C. Since sample A is a material sample (and a preparion),
+samples B and C.
+
+Since sample A is a material sample (and a preparion),
 it can be deaccessioned and marked as discarded.
 
 Remarks
 ~~~~~~~
 
-This is not a very common scenario, but important to support in order to
-minimize errors in biological collections.
+This is probably not a very common scenario, but an important one to
+support in order to minimize errors in biological collections.
 
 
 Sending part of a preparation on loan
