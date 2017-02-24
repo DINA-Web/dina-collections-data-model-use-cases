@@ -44,7 +44,7 @@ Remarks
 ~~~~~~~
 
 This is not a very common scenario, but important to support in order to
-reduce errors.
+minimize errors.
 
 
 Sending part of a preparation on loan
