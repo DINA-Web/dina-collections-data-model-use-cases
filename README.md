@@ -10,3 +10,6 @@ Collected use cases for the development of the DINA-Web information model.
 3. Use case description
 4. Model treatment (how is the use case handled by different information models?)
 5. Remarks
+
+
+[Use cases](use-cases.rst)
