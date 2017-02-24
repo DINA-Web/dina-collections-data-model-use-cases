@@ -24,16 +24,18 @@ Use case description
 ~~~~~~~~~~~~~~~~~~~~
 
 #. A single plant individual is dried and mounted on a herbarium sheet.
-#. Three DNA-samples (labeled "sample A", "sample B", and "sample C"),
-   are prepared at separate occasions from the preserved specimen.
-#. The plant individual is determined as species X based on a DNA-sequence
-   derived from sample A.
-#. The determination to species X is considered doubtful and contamination
-   of sample A is suspected.
-#. The plant individual is redetermined as species Y based on new
-   DNA-sequences derived from sample B and C, respectively.
-#. Sample A is finally discarded after concluding that it has been
-   contaminated.
+#. Three DNA-samples (labeled "sample A", "sample B", and "sample C")
+   are prepared from the plant by a researcher at separate occasions.
+   The DNA-samples are are also cataloged as members of the same collection
+   as the original material.
+#. Based on a DNA-sequence derived from sample A, the researcher
+   determine the plant individual as species X.
+#. The determination to species X is considered doubtful by the researcher
+   and contamination of sample A is therefore suspected.
+#. The plant individual is redetermined by the researcher as species Y
+   based on new DNA-sequences derived from sample B and C, respectively.
+#. Sample A is finally discarded by a curator after concluding that it
+   has been contaminated.
 
 
 Model treatment
@@ -57,13 +59,14 @@ Background
 Use case description
 ~~~~~~~~~~~~~~~~~~~~
 
-#. Two fishes of the same species are captured during the same collecting
-   event and placed in a jar of alcohol.
-#. At the museum, the jar is labeled with a catalog number.
-#. One fish is then taken out of the jar, labled with an additional
-   ID-tag, and sent out on loan.
-#. When the loaned material is returned, the fish is put back into
-   the original jar again.
+#. A researcher captures two fishes of the same species during
+   a single collecting event, and places them in a jar of alcohol.
+#. At the museum, a curator labels the jar with a catalog number.
+#. Another researcher then send a loan request for one of the two fishes.
+#. The curator pick one fish from the jar, label it with an ID-tag,
+   and send it out on loan.
+#. When the loaned material is returned, the curator put it back
+   into the original jar again.
 
 
 Remarks
