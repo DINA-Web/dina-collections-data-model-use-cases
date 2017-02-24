@@ -6,6 +6,7 @@ Use cases
    :backlinks: none
    :local:
 
+
 -----------------------------------
 
 
@@ -15,8 +16,8 @@ Contaminated DNA-sample
 Background
 ~~~~~~~~~~
 
-This use case involves two different relations between determination and
-physical objects: a determination may *apply to* one set of objects, but
+This use case involves two kinds of relations between determination and
+physical object: a determination may *apply to* one set of objects, but
 at the same time be *based on* only a subset of the first set.
 
 
@@ -38,15 +39,27 @@ Use case description
    has been contaminated.
 
 
-Model treatment
-~~~~~~~~~~~~~~~
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
 
+The herbarium sheet with the plant specimen constitutes
+a preparation, where the dried plant itself is a material sample. Each
+DNA-sample is also a material sample that belong to a separate
+preparation (probably a microtube). Each of the 4 material samples
+contains one identifiable unit.
+
+All 4 identifiable units belong to the same individual group,
+and thus share the two determinations. But in addition to that, the
+determination to species X *is based on* the identifiable unit for
+sample A, whereas the determination to species Y *is based on* both
+samples B and C. Since sample A is a material sample (and a preparion),
+it can be deaccessioned and marked as discarded.
 
 Remarks
 ~~~~~~~
 
 This is not a very common scenario, but important to support in order to
-minimize errors.
+minimize errors in biological collections.
 
 
 Sending part of a preparation on loan
