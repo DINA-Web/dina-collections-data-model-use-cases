@@ -20,12 +20,6 @@ physical objects: a determination may *apply to* one set of objects, but
 at the same time be *based on* only a subset of the first set.
 
 
-Scope and prevalence
-~~~~~~~~~~~~~~~~~~~~
-
-Common for biological collections.
-
-
 Use case description
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -49,18 +43,15 @@ Model treatment
 Remarks
 ~~~~~~~
 
+This is not a very common scenario, but important to support in order to
+reduce errors.
+
 
 Sending part of a preparation on loan
 -------------------------------------
 
 Background
 ~~~~~~~~~~
-
-
-Scope and prevalence
-~~~~~~~~~~~~~~~~~~~~
-
-Common in collections of varous kinds.
 
 
 Use case description
