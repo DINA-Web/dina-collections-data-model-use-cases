@@ -27,8 +27,8 @@ Use case description
 #. A single plant individual is dried and mounted on a herbarium sheet.
 #. Three DNA-samples (labeled "sample A", "sample B", and "sample C")
    are prepared from the plant by a researcher at separate occasions.
-   The DNA-samples are are also cataloged as members of the same collection
-   as the original material.
+   The DNA-samples are cataloged as being members of the same collection
+   as the original voucher material.
 #. Based on a DNA-sequence derived from sample A, the researcher
    determine the plant individual as species X.
 #. The determination to species X is considered doubtful by the researcher
@@ -49,13 +49,14 @@ preparation (probably a microtube). Each of the 4 material samples
 contains one identifiable unit.
 
 All 4 identifiable units belong to the same individual group,
-and thus share the two determinations. But in addition to that, the
+and thus share the two determinations. In addition to that, the
 determination to species X *is based on* the identifiable unit for
-sample A, whereas the determination to species Y *is based on* both
-samples B and C.
+sample A, whereas the determination to species Y *is based on* the
+identifiable units for samples B and C.
 
 Since sample A is a material sample (and a preparion),
 it can be deaccessioned and marked as discarded.
+
 
 Remarks
 ~~~~~~~
