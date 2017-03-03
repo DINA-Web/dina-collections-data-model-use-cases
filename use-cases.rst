@@ -243,8 +243,8 @@ collecting date is saved for that event. The verbatim information is left
 unchanged.
 
 
-Deriving a sample from an existing sample
------------------------------------------
+Creating a derived sample
+-------------------------
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
