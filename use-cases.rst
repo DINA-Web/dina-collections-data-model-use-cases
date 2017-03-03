@@ -92,7 +92,7 @@ Background/Motivation
 A collection manager wishes to send only a part of a preparation on loan,
 without being required to create a new preparation. This may for example
 involve cases when there is a jar with five fishes of the same species and the
-collection manager wants to send only one of them on loan.
+collection manager wants to send only one of the fishes on loan.
 
 Actors
 ~~~~~~
