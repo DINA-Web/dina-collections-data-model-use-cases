@@ -15,8 +15,8 @@ the data model core.
 -------------------
 
 
-Mark a DNA-sample as contaminated
----------------------------------
+Marking a DNA-sample as contaminated
+------------------------------------
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
@@ -264,14 +264,14 @@ assistant, or data capture person.
 Preconditions
 ~~~~~~~~~~~~~
 
-A sample has been registered, together with a determination associated with
-that sample. A subsample has then been taken from the registered sample.
+A sample has been registered, together with a determination. A subsample has
+then been taken from the registered sample.
 
 
 Course of events
 ~~~~~~~~~~~~~~~~
 
-#. The collection manager selects the sample from which the new sample is
+#. The collection manager selects the sample from which the new sample has been
    subsampled.
 
 #. The collection manager creates a derived sample from the selected sample.
