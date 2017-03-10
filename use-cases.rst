@@ -46,11 +46,11 @@ Course of events
 
 #. The collection manager selects one of the DNA-sample records and mark it as
    dubious.
-#. [Optional] The collection manager writes a note saying that the sample may
-   be contaminated.
+#. The collection manager writes a note saying that the sample may be 
+   contaminated. [Optional]
 #. The system flags the determinations that are associated with the selected
-   sample. (The flag indicates that the determination has been based on a
-   dubious sample.)
+   sample. The flag indicates that the determination has been based on a
+   dubious sample.
 
 
 Alternative paths
@@ -161,8 +161,8 @@ that no new preparation needs to be created.
 
 In the alternative path, no new material sample is created. Instead, an
 "unspecified part" of the material sample constitutes the transaction unit.
-This is not the preferred way of dealing with the loan since it may be
-impossible to trace what part of the material was actually sent on loan.
+This is not the preferred way of handling the loan since it may be impossible
+to trace what part of the material was actually sent on loan.
 
 
 Resolving conflicting collecting dates
@@ -225,7 +225,7 @@ Notes
 
 It is difficult to tell how common this use case is since users of current
 collection management systems often ignore information conflicts. It is likely
-that situations like this may become more common in future, as curators
+that situations like this will become more common in future, as curators
 discover more of shared history between specimens. At its heart, this use case
 demonstrates the need of handling information sources independently from
 specimens.
@@ -237,10 +237,9 @@ Model treatment: nrm
 Each specimen represent a material sample. To begin with, each material sample
 has its own collecting event, and each collecting event an interpreted
 collecting date. In addition, each material sample also has an information
-source with a verbatim collecting date. The two material samples are then
-connected to the same collecting event. Consequently, only one interpreted
-collecting date is saved for that event. The verbatim information is left
-unchanged.
+source with a verbatim collecting date. When the two material samples get
+connected to the same collecting event, only one interpreted collecting date 
+is saved for that event. The verbatim information is left unchanged.
 
 
 Creating a derived sample that represents the same individual
@@ -276,10 +275,9 @@ Course of events
 
 #. The collection manager creates a derived sample from the selected sample.
 
-#. The system ask the collection manager whether (1) the new sample should
+#. The system asks the collection manager whether (1) the new sample should
    belong to a separate preparation and (2) whether the new sample should
-   represent a new individual or group of individual (i.e. whether it should
-   inherit the determination history from the parent sample).
+   represent a new individual or group of individual.
 
 #. The collection manager chooses to treat the new sample as belonging to the
    same a individual or group of individual, but as belonging to a separate
@@ -296,8 +294,7 @@ Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 A derived sample has been created with a separate preparation. The derived
-sample shares the determination with the sample from which it was
-derived.
+sample shares the determination with the sample from which it was derived.
 
 
 Notes
