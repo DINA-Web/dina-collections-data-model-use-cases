@@ -117,8 +117,8 @@ Course of events
 
 #. The collection manager selects the batch record that represents the
    specimen to be sent on loan.
-#. The collection manager identifies (enters an ID-number) and registers the
-   specimen to be sent on loan.
+#. The collection manager identifies (enters or generates an ID-number) and
+   registers the specimen to be sent on loan.
 #. The collection manager creates a loan transaction for the transfer of the
    selected specimen.
 
@@ -345,7 +345,7 @@ Course of events
 
 #. The system adds a default highest level preparation for the specimen.
 
-#. The collection manager identifies (enters or generate an ID-number for) the
+#. The collection manager identifies (enters or generates an ID-number for) the
    specimen.
 
 #. The collection manager enters relevant information about the specimen and
