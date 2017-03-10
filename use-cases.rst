@@ -312,6 +312,79 @@ separate preparation. Since the two material samples belong to the same
 individual group, they will share the determination.
 
 
+Registering a specimen with a nested preparation
+------------------------------------------------
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+A collection manager wishes to register a specimen that belong to a preparation
+that in turn belong to another preparation, for example a moss inside a package
+that has been mounted on a herbarium sheet.
+
+
+Actors
+~~~~~~
+
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
+
+
+Preconditions
+~~~~~~~~~~~~~
+
+An unregistered specimen belongs to a preparation that in turn belongs to
+another preparation.
+
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+#. The collection manager opens an empty specimen record.
+
+#. The system adds a default highest level preparation for the specimen.
+
+#. The collection manager identifies (enters or generate an ID-number for) the
+   specimen.
+
+#. The collection manager enters relevant information about the specimen and
+   the default preparation.
+
+#. The collection manager selects the default preparation and creates a child
+   preparation.
+
+#. The collection manager enters information about the child preparation.
+
+#. The collection manager moves the specimen to the new child preparation.
+
+#. The collection manager saves the specimen record.
+
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+None described.
+
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+A specimen has been registered as belonging to a preparation that in turn
+belongs to another preparation.
+
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+One material sample (with one identifiable unit) that belong to a preparation
+that in turn belong to the highest level preparation.
+
+
+
 -------------------
 
 Title
