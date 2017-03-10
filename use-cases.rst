@@ -312,8 +312,8 @@ separate preparation. Since the two material samples belong to the same
 individual group, they will share the determination.
 
 
-Registering a specimen with a nested preparation
-------------------------------------------------
+Registering a specimen that belongs to a nested preparation
+-----------------------------------------------------------
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
