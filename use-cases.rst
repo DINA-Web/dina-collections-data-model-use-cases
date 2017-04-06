@@ -384,6 +384,24 @@ One material sample (with one identifiable unit) that belong to a preparation
 that in turn belong to the highest level preparation.
 
 
+Title
+-----
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+Actors
+~~~~~~
+Preconditions
+~~~~~~~~~~~~~
+Course of events
+~~~~~~~~~~~~~~~~
+Alternative paths
+~~~~~~~~~~~~~~~~~
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+Notes
+~~~~~
+Model treatment: nrm
+
 
 -------------------
 
