@@ -19,3 +19,5 @@ model.
 
 
 [Use cases](use-cases.rst)
+
+[DINA-Web collections data model repository](https://github.com/DINA-Web/dina-collections-data-model)
