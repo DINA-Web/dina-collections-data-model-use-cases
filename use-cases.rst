@@ -372,8 +372,8 @@ None described.
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-A specimen has been registered as belonging to a preparation that in turn
-belongs to another preparation.
+A specimen has been registered as belonging to a physical unit that in turn
+belongs to another physical unit.
 
 
 Notes
