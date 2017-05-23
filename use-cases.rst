@@ -91,7 +91,7 @@ Background/Motivation
 
 A collection manager wishes to send only a part of a preparation on loan,
 without being required to create a new preparation. In this use case, a
-*preparation* is understood as a physical coherent unit that contains 
+*preparation* is understood as a physically coherent unit that contains 
 detachable parts. This may for example involve cases when there is a jar with 
 five fishes of the same species and the collection manager wants to send only 
 one of the fishes on loan.
@@ -382,8 +382,8 @@ Notes
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
 
-One material sample (with one identifiable unit) that belong to a preparation
-that in turn belong to the highest level preparation.
+One material sample (with one identifiable unit) that belong to a physical unit
+that in turn belong to the highest level physical unit.
 
 
 -------------------
