@@ -90,9 +90,11 @@ Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
 A collection manager wishes to send only a part of a preparation on loan,
-without being required to create a new preparation. This may for example
-involve cases when there is a jar with five fishes of the same species and the
-collection manager wants to send only one of the fishes on loan.
+without being required to create a new preparation. In this use case, a
+*preparation* is understood as a physically coherent unit that contains 
+detachable parts. This may for example involve cases when there is a jar with 
+five fishes of the same species and the collection manager wants to send only 
+one of the fishes on loan.
 
 Actors
 ~~~~~~
@@ -370,8 +372,8 @@ None described.
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-A specimen has been registered as belonging to a preparation that in turn
-belongs to another preparation.
+A specimen has been registered as belonging to a physical unit that in turn
+belongs to another physical unit.
 
 
 Notes
@@ -380,27 +382,8 @@ Notes
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
 
-One material sample (with one identifiable unit) that belong to a preparation
-that in turn belong to the highest level preparation.
-
-
-Title
------
-Background/Motivation
-~~~~~~~~~~~~~~~~~~~~~
-Actors
-~~~~~~
-Preconditions
-~~~~~~~~~~~~~
-Course of events
-~~~~~~~~~~~~~~~~
-Alternative paths
-~~~~~~~~~~~~~~~~~
-Success post-conditions
-~~~~~~~~~~~~~~~~~~~~~~~
-Notes
-~~~~~
-Model treatment: nrm
+One material sample (with one identifiable unit) that belong to a physical unit
+that in turn belong to the highest level physical unit.
 
 
 -------------------
