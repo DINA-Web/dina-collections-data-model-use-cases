@@ -164,7 +164,7 @@ transaction unit, which means that no new preparation needs to be created.
 In the alternative path, no new material sample is created. Instead, an
 "unspecified part" of the material sample constitutes the transaction unit.
 This is not the preferred way of handling the loan since it may be impossible
-to trace what part of the material was actually sent on loan.
+to trace which part of the material was actually sent on loan.
 
 
 Resolving conflicting collecting dates
