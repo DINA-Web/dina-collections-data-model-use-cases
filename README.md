@@ -21,3 +21,5 @@ model.
 [Use cases](use-cases.rst)
 
 [DINA-Web collections data model repository](https://github.com/DINA-Web/dina-collections-data-model)
+
+[Illustration showing the conceptual model](https://github.com/DINA-Web/dina-collections-data-model/blob/master/model/dina-collections-conceptual-model.png)
