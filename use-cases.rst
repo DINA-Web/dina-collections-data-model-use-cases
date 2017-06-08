@@ -434,8 +434,11 @@ Course of events
    selected record.
 
 #. The system asks the user whether the record should represent the same
+
    - physical unit?
+   
    - individual (or group of individuals)?
+   
    - catalog number?
 
 #. The collection manager creates a new record that represents a different 
