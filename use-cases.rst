@@ -152,14 +152,14 @@ potentially also require more physical storage.
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
 
-To begin with, the batch represents one material sample, one preparation and
-one identifiable unit. The single material sample is then split into two
-material samples (and consequently two identifiable units) consisting of (1)
-the specimen to be sent out on loan, and (2) the remaining specimens. The two
-identifiable units belong to the same individual group and thus share the
-determination. They also belong to the same preparation. The material sample
-corresponding to the specimen sent on loan is the transaction unit, which means
-that no new preparation needs to be created.
+To begin with, the batch represents one material sample and one identifiable 
+unit. The single material sample is then split into two material samples (and 
+consequently two identifiable units) consisting of (1) the specimen to be sent 
+out on loan, and (2) the remaining specimens. The two identifiable units belong 
+to the same individual group and thus share the determination. They are also 
+either attached to the same artificial unit, or belongs to the same assemblage.
+The material sample corresponding to the specimen sent on loan make up the 
+transaction unit, which means that no new preparation needs to be created.
 
 In the alternative path, no new material sample is created. Instead, an
 "unspecified part" of the material sample constitutes the transaction unit.
@@ -244,15 +244,15 @@ connected to the same collecting event, only one interpreted collecting date
 is saved for that event. The verbatim information is left unchanged.
 
 
-Creating a derived sample that represents the same individual
--------------------------------------------------------------
+Creating a derived specimen that represents the same individual
+---------------------------------------------------------------
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
-A collection manager wishes to create a new sample (specimen) from an existing
-one. The parent sample has a determination which the child sample is supposed
-to inherit.
+A collection manager wishes to create a new specimen (sample) from an existing
+one. The parent specimen may have identificaitons which the child specimen is 
+supposed to inherit.
 
 
 Actors
@@ -272,8 +272,8 @@ then been taken from the registered sample.
 Course of events
 ~~~~~~~~~~~~~~~~
 
-#. The collection manager selects the sample from which the new sample has been
-   subsampled.
+#. The collection manager selects the specimen from which the new sample has 
+   been subsampled.
 
 #. The collection manager creates a derived sample from the selected sample.
 
@@ -295,8 +295,8 @@ None described.
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-A derived sample has been created with a separate preparation. The derived
-sample shares the determination with the sample from which it was derived.
+A derived specimen (sample) has been created with a separate preparation. 
+The derived sample shares the determination with the sample from which it was derived.
 
 
 Notes
@@ -308,10 +308,103 @@ None.
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
 
-A material sample is created from an existing material sample. The derived
-material sample shares the individual group with its parent, but belongs to a
-separate preparation. Since the two material samples belong to the same
-individual group, they will share the determination.
+Two new identifiable units are created: one representing the child specimen, 
+and one representing the remainder of the parent specimen. A new material 
+sample is created for the child sample. All three identifiable units (including
+the one representing the parent specimen) are connected to the same individual
+group, and thus share all determinations.
+
+
+Creating a derived specimen that represents a different taxon
+-------------------------------------------------------------
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+A collection manager wishes to take a part of a cataloged specimen (parent 
+specimen) and create a new specimen (derived specimen) with a separate catalog 
+number. Any previous identification or observation associated with the parent 
+specimen should be inherited by the derived specimen. From the derived 
+specimen, it should also be possible to trace the parent specimen's catalog 
+number.
+
+
+Actors
+~~~~~~
+
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
+
+**Researcher** – a person that want to use material from the collection.
+
+
+Preconditions
+~~~~~~~~~~~~~
+
+A researcher realizes that a cataloged specimen actually represents two 
+individuals and identify them as belonging to different taxa. Subsequently,
+the collection manager picks one of the individuals and make it a separate 
+specimen.
+
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+#. The collection manager selects the record that represents the parent 
+   specimen.
+
+#. The collection manager chooses to create a derived record from the 
+   selected record.
+
+#. The system asks the user whether the record should represent the same
+
+   - physical unit?
+   
+   - individual (or group of individuals)?
+   
+   - catalog number?
+
+#. The collection manager creates a new record that represents a different 
+   physical unit, a different individual, and a different catalog number.
+
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+None described.
+
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+A new record has been created for the new specimen. All previous 
+identifications made to the parent speciemen is present in the identification 
+history log. The new specimen has been assigned a new catalog number, and it
+is clear from which specimen it was derived.
+
+
+Notes
+~~~~~
+
+Splitting specimens into smaller units is common in many collections. Though, 
+not all collections care about recording the history of the splitting
+events. This use case is very similar to creating
+
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+The parent specimen is originally recorded as one identifiable unit (and 
+consequently a single individual group, a single material sample, and a single 
+cataloged unit). When a the new specimen has been prepared, two new 
+identifiable units are created: one representing the new specimen and one
+representing the remainder of the parent specimen. A new individual group, a
+new material sample and a new cataloged unit is then also created for the new 
+speciemen.
+
+
+-------------------
 
 
 Registering a specimen that belongs to a nested preparation
@@ -391,96 +484,6 @@ that in turn belong to the highest level physical unit.
 -------------------
 
 
-Creating a derived sample that represents a different taxon
------------------------------------------------------------
-
-Background/Motivation
-~~~~~~~~~~~~~~~~~~~~~
-
-A collection manager wishes to take a part of a cataloged specimen (parent 
-specimen) and create a new specimen (derived specimen) with a separate catalog 
-number. Any previous identification or observation associated with the parent 
-specimen should be inherited by the derived specimen. From the derived 
-specimen, it should also be possible to trace the parent specimen's catalog 
-number.
-
-
-Actors
-~~~~~~
-
-**Collection manager** (in a wide sense) – a person that uses the system to
-manage a collection, possibly a curator, a collection manager, a collection
-assistant, or data capture person.
-
-**Researcher** – a person that want to use material from the collection.
-
-
-Preconditions
-~~~~~~~~~~~~~
-
-A researcher realizes that a cataloged specimen actually represents two 
-individuals and identify them as belonging to different taxa. Subsequently,
-the collection manager picks one of the individuals and make it a separate 
-specimen.
-
-
-Course of events
-~~~~~~~~~~~~~~~~
-
-#. The collection manager selects the record that represents the parent 
-   specimen.
-
-#. The collection manager chooses to create a derived record from the 
-   selected record.
-
-#. The system asks the user whether the record should represent the same
-
-   - physical unit?
-   
-   - individual (or group of individuals)?
-   
-   - catalog number?
-
-#. The collection manager creates a new record that represents a different 
-   physical unit, a different individual, and a different catalog number.
-
-
-Alternative paths
-~~~~~~~~~~~~~~~~~
-
-None described.
-
-
-Success post-conditions
-~~~~~~~~~~~~~~~~~~~~~~~
-
-A new record has been created for the new specimen. All previous 
-identifications made to the parent speciemen is present in the identification 
-history log. The new specimen has been assigned a new catalog number, and it
-is clear from which specimen it was derived.
-
-
-Notes
-~~~~~
-
-Splitting specimens into smaller units is common in many collections. Though, 
-not all collections care about recording the history of the splitting
-events.
-
-
-Model treatment: nrm
-~~~~~~~~~~~~~~~~~~~~
-
-The parent specimen is originally recorded as one identifiable unit (and 
-consequently a single individual group, a single material sample, and a single 
-cataloged unit). When a the new specimen has been prepared, two new 
-identifiable units are created, one representing the new specimen and the other
-representing the remainder of the parent specimen. A new individual group, a
-new material sample and a new cataloged unit is then also created for the new 
-speciemen.
-
-
--------------------
 
 Title
 -----
