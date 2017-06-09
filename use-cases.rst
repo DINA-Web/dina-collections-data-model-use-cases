@@ -484,6 +484,233 @@ that in turn belong to the highest level physical unit.
 -------------------
 
 
+Transcribing text from an information source - draft
+----------------------------------------------------
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Sometimes a user wants to add information that is available without making 
+interpretations of the content. In other words, the user wants to record whats
+there – not the actual meaning of the information. This use case involves how 
+to deal with those situations, but involves also how to record information 
+about the source.
+
+
+Actors
+~~~~~~
+
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
+
+Preconditions
+~~~~~~~~~~~~~
+
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Many collections record verbatim text, but are usually less concerned with 
+where the information comes from.
+
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+
+-------------------
+
+
+Adding a determination based on an image - draft
+------------------------------------------------
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Some collections treat physical or digital photos as collection object. This
+is especially important whan the original physical material has been lost or
+destroyed. With small animals, for example, it is common that all material is
+consumed in a genetic analysis. In these cases may the image serve as valuable
+historical reference. As with physical material, an image may be redetermined
+as something else.
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+
+-------------------
+
+
+Adding two observations of the same kind - draft
+------------------------------------------------
+
+Sometimes a user wishes to add more than one observation of the same kind,
+without necessarily deciding on their respective official status. For example,
+the body weight of an animal may have been recorded at two separate occasions.
+
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+
+-------------------
+
+
+Adding two collecting events for an individual - draft
+------------------------------------------------------
+
+There may be more than one collecting event for a single biological individual. 
+An example involves the botanist who collects material (e.g. flowers and fruit, 
+respectively) from a tree at two different occasions during a season.
+
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+
+-------------------
+
+
+Recognizing that a specimen is type for two names (at the same time) - draft
+----------------------------------------------------------------------------
+
+A specimen can be a nomenclatural type for more than one name at the same time.
+This is rare, but can be seen for example in botany where two duplicate 
+specimens located at different herbaria has been used (unintentionally) to 
+typify different names.
+
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+-------------------
+
+
+Add a second-level catalog number to a specimen - draft
+-------------------------------------------------------
+
+The situation to have two-level-identifiers for specimens is quite common. 
+Sometimes is the lowest level identifier composed of the higher level 
+identifier plus some suffix.
+
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+-------------------
+
 
 Title
 -----
