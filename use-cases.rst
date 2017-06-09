@@ -546,16 +546,22 @@ as something else.
 
 Actors
 ~~~~~~
+
 Preconditions
 ~~~~~~~~~~~~~
+
 Course of events
 ~~~~~~~~~~~~~~~~
+
 Alternative paths
 ~~~~~~~~~~~~~~~~~
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 Notes
 ~~~~~
+
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -565,6 +571,11 @@ Model treatment: nrm
 
 Adding two observations of the same kind - draft
 ------------------------------------------------
+
+Sometimes a user wishes to add more than one observation of the same kind,
+without necessarily deciding on their respective official status. For example,
+the body weight of an animal may have been recorded at two separate occasions.
+
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
@@ -597,6 +608,11 @@ Model treatment: nrm
 Adding two collecting events for an individual - draft
 ------------------------------------------------------
 
+There may be more than one collecting event for a single biological individual. 
+An example involves the botanist who collects material (e.g. flowers and fruit, 
+respectively) from a tree at two different occasions during a season.
+
+
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -628,6 +644,11 @@ Model treatment: nrm
 Recognizing that a specimen is type for two names (at the same time) - draft
 ----------------------------------------------------------------------------
 
+A specimen can be a nomenclatural type for more than one name at the same time.
+This is rare, but can be seen for example in botany where two duplicate 
+specimens located at different herbaria has been used (unintentionally) to 
+typify different names.
+
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
@@ -658,6 +679,11 @@ Model treatment: nrm
 
 Add a second-level catalog number to a specimen - draft
 -------------------------------------------------------
+
+The situation to have two-level-identifiers for specimens is quite common. 
+Sometimes is the lowest level identifier composed of the higher level 
+identifier plus some suffix.
+
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
