@@ -484,8 +484,8 @@ that in turn belong to the highest level physical unit.
 -------------------
 
 
-Transcribing text from an information source
---------------------------------------------
+Transcribing text from an information source - draft
+----------------------------------------------------
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
@@ -531,8 +531,8 @@ Model treatment: nrm
 -------------------
 
 
-Adding a determination based on an image
-----------------------------------------
+Adding a determination based on an image - draft
+------------------------------------------------
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
@@ -563,8 +563,8 @@ Model treatment: nrm
 -------------------
 
 
-Adding two observations of the same kind
-----------------------------------------
+Adding two observations of the same kind - draft
+------------------------------------------------
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
@@ -594,8 +594,8 @@ Model treatment: nrm
 -------------------
 
 
-Adding two collecting events for an individual
-----------------------------------------------
+Adding two collecting events for an individual - draft
+------------------------------------------------------
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
@@ -625,8 +625,8 @@ Model treatment: nrm
 -------------------
 
 
-Recognizing that a specimen is type for two names (at the same time)
---------------------------------------------------------------------
+Recognizing that a specimen is type for two names (at the same time) - draft
+----------------------------------------------------------------------------
 
 
 Background/Motivation
@@ -656,8 +656,8 @@ Model treatment: nrm
 -------------------
 
 
-Add a second-level catalog number to a specimen
------------------------------------------------
+Add a second-level catalog number to a specimen - draft
+-------------------------------------------------------
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
