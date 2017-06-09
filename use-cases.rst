@@ -484,6 +484,183 @@ that in turn belong to the highest level physical unit.
 -------------------
 
 
+Transcribing text from an information source
+--------------------------------------------
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+
+-------------------
+
+
+Adding a determination based on an image
+----------------------------------------
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+Actors
+~~~~~~
+Preconditions
+~~~~~~~~~~~~~
+Course of events
+~~~~~~~~~~~~~~~~
+Alternative paths
+~~~~~~~~~~~~~~~~~
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+Notes
+~~~~~
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+
+-------------------
+
+
+Adding two observations of the same kind
+----------------------------------------
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+
+-------------------
+
+
+Adding two collecting events for an individual
+----------------------------------------------
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+
+-------------------
+
+
+Recognizing that a specimen is type for two names (at the same time)
+--------------------------------------------------------------------
+
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+-------------------
+
+
+Add a second-level catalog number to a specimen
+-----------------------------------------------
+
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
+Actors
+~~~~~~
+
+Preconditions
+~~~~~~~~~~~~~
+
+Course of events
+~~~~~~~~~~~~~~~~
+
+Alternative paths
+~~~~~~~~~~~~~~~~~
+
+Success post-conditions
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Notes
+~~~~~
+
+Model treatment: nrm
+~~~~~~~~~~~~~~~~~~~~
+
+-------------------
+
 
 Title
 -----
