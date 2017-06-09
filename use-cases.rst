@@ -490,11 +490,23 @@ Transcribing text from an information source
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
+Sometimes a user wants to add information that is available without having
+to make any interpretations. In other words, the user wants to record whats
+there – not the actual meaning of the information. This use case involves how 
+to deal with those situations, but also how to record information about the
+source.
+
+
 Actors
 ~~~~~~
 
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
+
 Preconditions
 ~~~~~~~~~~~~~
+
 
 Course of events
 ~~~~~~~~~~~~~~~~
@@ -508,6 +520,10 @@ Success post-conditions
 Notes
 ~~~~~
 
+Many collections record verbatim text, but are usually less concerned with 
+where the information comes from.
+
+
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -520,6 +536,14 @@ Adding a determination based on an image
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
+
+Some collections treat physical or digital photos as collection object. This
+is especially important whan the original physical material has been lost or
+destroyed. With small animals, for example, it is common that all material is
+consumed in a genetic analysis. In these cases may the image serve as valuable
+historical reference. As with physical material, an image may be redetermined
+as something else.
+
 Actors
 ~~~~~~
 Preconditions
