@@ -490,11 +490,11 @@ Transcribing text from an information source - draft
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes a user wants to add information that is available without having
-to make any interpretations. In other words, the user wants to record whats
+Sometimes a user wants to add information that is available without making 
+interpretations of the content. In other words, the user wants to record whats
 there – not the actual meaning of the information. This use case involves how 
-to deal with those situations, but also how to record information about the
-source.
+to deal with those situations, but involves also how to record information 
+about the source.
 
 
 Actors
