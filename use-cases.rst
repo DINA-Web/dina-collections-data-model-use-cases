@@ -253,8 +253,8 @@ Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
 A collection manager wishes to create a new specimen (sample) from an existing
-one. The parent specimen may have identificaitons which the child specimen is 
-supposed to inherit.
+one. The parent specimen may have taxonomic identificaitons (or other
+observations) which the child specimen is supposed to inherit.
 
 
 Actors
@@ -281,10 +281,10 @@ Course of events
 
 #. The system asks the collection manager whether (1) the new sample should
    belong to a separate preparation and (2) whether the new sample should
-   represent a new individual or group of individual.
+   represent a new individual or group of individuals.
 
 #. The collection manager chooses to treat the new sample as belonging to the
-   same a individual or group of individual, but as belonging to a separate
+   same a individual or group of individuals, but as belonging to a separate
    preparation.
 
 
@@ -298,7 +298,8 @@ Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 A derived specimen (sample) has been created with a separate preparation. 
-The derived sample shares the determination with the sample from which it was derived.
+The derived sample shares the determination with the sample from which it was 
+derived.
 
 
 Notes
@@ -365,10 +366,10 @@ Course of events
    
    - individual (or group of individuals)?
    
-   - catalog number?
+   - cataloged unit (i.e. catalog number)?
 
 #. The collection manager creates a new record that represents a different 
-   physical unit, a different individual, and a different catalog number.
+   physical unit, a different individual, and a different cataloged unit.
 
 
 Alternative paths
@@ -391,7 +392,8 @@ Notes
 
 Splitting specimens into smaller units is common in many collections. Though, 
 not all collections care about recording the history of the splitting
-events. This use case is very similar to creating
+events. This use case is  similar to the use case "Creating a derived specimen 
+that represents the same individual".
 
 
 Model treatment: nrm
