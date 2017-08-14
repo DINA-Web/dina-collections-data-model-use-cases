@@ -4,7 +4,7 @@ Use cases
 This document describes system use cases that have implications on model core
 of the DINA-Web collection management system. The use cases are written at a
 high level, just detailed enough to capture requirements for the development of
-the data model core.
+the data model core. The use cases have not been prioritized!
 
 
 .. contents:: Table of contents
@@ -22,7 +22,9 @@ Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
 A collection manager wishes to mark one of two DNA-samples from the same
-individual as potentially contaminated.
+individual as potentially contaminated. This may be needed in order
+to trace for example erroneous identifications.
+
 
 Actors
 ~~~~~~
@@ -191,7 +193,7 @@ Preconditions
 
 Two specimens have been registered separately with different collecting dates.
 Both the verbatim date and interpreted date differ between the specimens. The
-specimens share a unique field number, so it can be assumed that they have been
+specimens share a unique field number, so one can assume that they have been
 collected during the same event.
 
 
@@ -481,20 +483,21 @@ Model treatment: nrm
 One material sample (with one identifiable unit) that belong to a physical unit
 that in turn belong to the highest level physical unit.
 
+
 -------------------
 
 
 Transcribing text from an information source - draft
 ----------------------------------------------------
 
+
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes a user wants to add information that is available without making 
-interpretations of the content. In other words, the user wants to record whats
-there – not the actual meaning of the information. This use case involves how 
-to deal with those situations, but involves also how to record information 
-about the source.
+Sometimes a user wants to add information that is available without
+interpreting it. In other words, the user wants to record whats there – not 
+the actual meaning of the information. This relates to the recording of
+metadata about the source.
 
 
 Actors
@@ -511,11 +514,14 @@ Preconditions
 Course of events
 ~~~~~~~~~~~~~~~~
 
+
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Notes
 ~~~~~
@@ -537,12 +543,12 @@ Adding a determination based on an image - draft
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
-Some collections treat physical or digital photos as collection object. This
-is especially important whan the original physical material has been lost or
-destroyed. With small animals, for example, it is common that all material is
-consumed in a genetic analysis. In these cases may the image serve as valuable
-historical reference. As with physical material, an image may be redetermined
-as something else.
+Some collections treat digital photos in the same way as physical collection
+objects. This can for example when the original physical
+material has been lost or destroyed. With small animals, for example, it 
+is common that all material is consumed in a genetic analysis. The image 
+serve as valuable historical reference. As with physical material, an image 
+may be redetermined as something else.
 
 Actors
 ~~~~~~
@@ -573,30 +579,37 @@ Adding two observations of the same kind - draft
 ------------------------------------------------
 
 Sometimes a user wishes to add more than one observation of the same kind,
-without necessarily deciding on their respective official status. For example,
-the body weight of an animal may have been recorded at two separate occasions.
+without necessarily deciding on their official statuses. For example, the body 
+weight of an animal may have been recorded at two separate occasions.
 
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
+
 Actors
 ~~~~~~
+
 
 Preconditions
 ~~~~~~~~~~~~~
 
+
 Course of events
 ~~~~~~~~~~~~~~~~
+
 
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
 Notes
 ~~~~~
+
 
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
@@ -609,30 +622,37 @@ Adding two collecting events for an individual - draft
 ------------------------------------------------------
 
 There may be more than one collecting event for a single biological individual. 
-An example involves the botanist who collects material (e.g. flowers and fruit, 
-respectively) from a tree at two different occasions during a season.
+An example involves the botanist who collects material (e.g. flowers and 
+fruits, respectively) from a tree at two different occasions during a season.
 
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
+
 Actors
 ~~~~~~
+
 
 Preconditions
 ~~~~~~~~~~~~~
 
+
 Course of events
 ~~~~~~~~~~~~~~~~
+
 
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
 Notes
 ~~~~~
+
 
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
@@ -653,26 +673,34 @@ typify different names.
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
+
 Actors
 ~~~~~~
+
 
 Preconditions
 ~~~~~~~~~~~~~
 
+
 Course of events
 ~~~~~~~~~~~~~~~~
+
 
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Notes
 ~~~~~
 
+
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
+
 
 -------------------
 
@@ -681,33 +709,41 @@ Add a second-level catalog number to a specimen - draft
 -------------------------------------------------------
 
 The situation to have two-level-identifiers for specimens is quite common. 
-Sometimes is the lowest level identifier composed of the higher level 
-identifier plus some suffix.
+The lowest level identifier is sometimes composed of the higher level 
+identifier plus a suffix.
 
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
+
 Actors
 ~~~~~~
+
 
 Preconditions
 ~~~~~~~~~~~~~
 
+
 Course of events
 ~~~~~~~~~~~~~~~~
+
 
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Notes
 ~~~~~
 
+
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
+
 
 -------------------
 
