@@ -98,6 +98,7 @@ detachable parts. This may for example involve cases when there is a jar with
 five fishes of the same species and the collection manager wants to send only 
 one of the fishes on loan.
 
+
 Actors
 ~~~~~~
 
@@ -187,6 +188,7 @@ Actors
 **Collection manager** (in a wide sense) – a person that uses the system to
 manage a collection, possibly a curator, a collection manager, a collection
 assistant, or data capture person.
+
 
 Preconditions
 ~~~~~~~~~~~~~
@@ -447,13 +449,14 @@ Course of events
 #. The collection manager identifies (enters or generates an ID-number for) the
    specimen.
 
-#. The collection manager enters relevant information about the specimen and
-   the default preparation.
+#. The collection manager enters relevant information about the specimen 
+   (e.g. a moss) and the default preparation (e.g. a herbarium sheet).
 
 #. The collection manager selects the default preparation and creates a child
    preparation.
 
-#. The collection manager enters information about the child preparation.
+#. The collection manager enters information about the child preparation 
+   (e.g. a package mounted on the herbarium sheet).
 
 #. The collection manager moves the specimen to the new child preparation.
 
@@ -498,8 +501,8 @@ Background/Motivation
 
 Sometimes a user wants to add information that is available without
 interpreting it. In other words, the user wants to record whats there – not 
-the actual meaning of the information. This relates to the recording of
-metadata about the source.
+the actual meaning of the information. This is related to recording 
+metadata about the information source.
 
 
 Actors
@@ -509,27 +512,49 @@ Actors
 manage a collection, possibly a curator, a collection manager, a collection
 assistant, or data capture person.
 
+
 Preconditions
 ~~~~~~~~~~~~~
+
+A specimen has been registered with a catalog number. The specimen has a label
+with what seems to be a place name. This is the only information on the label,
+and the information has not yet been entered into the system.
 
 
 Course of events
 ~~~~~~~~~~~~~~~~
 
+#. The collection manager selects the specimen record.
+
+#. The collection managers registers the label (just as a "label" attached to
+   the specimen).
+
+#. The collection manager enters the text on the label as verbatim text of type
+   locality.
+
+
 
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+None described.
+
 
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+A record for the label has been created and associated with the specimen
+record. The text on the label has been entered into the system as a "verbatim
+locality".
 
 
 Notes
 ~~~~~
 
 Many collections record verbatim text, but are usually less concerned with 
-where the information comes from.
+where the information comes from. Though it may be useful to know whether two
+pieces of information (e.g. collecting locality and collecting date) come from
+the same source (i.e. the same label).
 
 
 Model treatment: nrm
@@ -546,14 +571,20 @@ Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
 Some collections treat digital photos in the same way as physical collection
-objects. This can for example when the original physical
-material has been lost or destroyed. With small animals, for example, it 
-is common that all material is consumed in a genetic analysis. The image 
-serve as valuable historical reference. As with physical material, an image 
-may be redetermined as something else.
+objects. This can happen when the original physical material has been lost or
+destroyed. For example small animals may be consumed in a genetic analysis. 
+The image then serves a valuable historical reference. As with physical 
+material, an image may later be identified as a different taxon than the 
+current identification.
+
 
 Actors
 ~~~~~~
+
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
+
 
 Preconditions
 ~~~~~~~~~~~~~
@@ -580,13 +611,12 @@ Model treatment: nrm
 Adding two observations of the same kind - draft
 ------------------------------------------------
 
+Background/Motivation
+~~~~~~~~~~~~~~~~~~~~~
+
 Sometimes a user wishes to add more than one observation of the same kind,
 without necessarily deciding on their official statuses. For example, the body 
 weight of an animal may have been recorded at two separate occasions.
-
-
-Background/Motivation
-~~~~~~~~~~~~~~~~~~~~~
 
 
 Actors
