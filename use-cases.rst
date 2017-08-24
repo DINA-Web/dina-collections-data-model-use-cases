@@ -444,21 +444,23 @@ Course of events
 
 #. The collection manager opens an empty specimen record.
 
-#. The system adds a default highest level preparation for the specimen.
+#. The system adds a default preparation for the specimen.
 
 #. The collection manager identifies (enters or generates an ID-number for) the
    specimen.
 
 #. The collection manager enters relevant information about the specimen 
-   (e.g. a moss) and the default preparation (e.g. a herbarium sheet).
+   (e.g. that it is a moss) and the default preparation (e.g. that it is a 
+   herbarium sheet).
 
 #. The collection manager selects the default preparation and creates a child
    preparation.
 
 #. The collection manager enters information about the child preparation 
-   (e.g. a package mounted on the herbarium sheet).
+   (e.g. that it is a package mounted on the herbarium sheet).
 
-#. The collection manager moves the specimen to the new child preparation.
+#. The collection manager associates the specimen record with the child 
+   preparation (instead of the parent preparation).
 
 #. The collection manager saves the specimen record.
 
@@ -479,7 +481,17 @@ belongs to another physical unit.
 Notes
 ~~~~~
 
-None.
+There a three major reasons for recognizing nested preparations: First, one 
+may want to record data separately for different container objects (like for 
+example different preparation dates for the package and the herbarium sheet). 
+Secondly, one may want to describe the physical position of one or more 
+samples with respect to each other and to the full object that is being stored 
+on the shelf. This is especially useful if there are multiple small samples 
+stored together. The last reason has to do with transaction management. In 
+some collections, only a part of the stored object is part of a transaction, 
+like when a pollen slide is detached from its herbarium sheet and sent on loan.
+Nested preparations allows the user to indicate what material has been sent 
+out on loan and what is still on shelf.
 
 
 Model treatment: nrm
@@ -492,17 +504,17 @@ that in turn belong to the highest level physical unit.
 -------------------
 
 
-Transcribing text from an information source - draft
-----------------------------------------------------
+Transcribing text from an information source
+--------------------------------------------
 
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes a user wants to add information that is available without
-interpreting it. In other words, the user wants to record whats there – not 
-the actual meaning of the information. This is related to recording 
-metadata about the information source.
+Sometimes a user wants to add information that is available without 
+interpreting it. In other words, the user wants to record what s there – not 
+the actual meaning of the information. This is related to recording metadata 
+about the information source.
 
 
 Actors
@@ -526,12 +538,12 @@ Course of events
 
 #. The collection manager selects the specimen record.
 
-#. The collection managers registers the label (just as a "label" attached to
+#. The collection manager registers the label (just as a "label" attached to
    the specimen).
 
-#. The collection manager enters the text on the label as verbatim text of type
-   locality.
-
+#. The collection manager transcribes the text on the label as "verbatim 
+   locality", and associates the information with the recently created label 
+   record.
 
 
 Alternative paths
@@ -552,7 +564,7 @@ Notes
 ~~~~~
 
 Many collections record verbatim text, but are usually less concerned with 
-where the information comes from. Though it may be useful to know whether two
+where the information comes from. Though, it may be useful to know whether two
 pieces of information (e.g. collecting locality and collecting date) come from
 the same source (i.e. the same label).
 
@@ -560,6 +572,9 @@ the same source (i.e. the same label).
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
 
+One artificial unit representing the label, one transcribed content 
+representing the text transcribed from the label that is of transcribed 
+content type "verbatim locality".
 
 -------------------
 
@@ -571,9 +586,9 @@ Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
 Some collections treat digital photos in the same way as physical collection
-objects. This can happen when the original physical material has been lost or
-destroyed. For example small animals may be consumed in a genetic analysis. 
-The image then serves a valuable historical reference. As with physical 
+objects. This is often the case when the original physical material has been 
+lost or destroyed (like when small animals are consumed in genetic analyses). 
+The image then serves a valuable historical reference. As with any physical 
 material, an image may later be identified as a different taxon than the 
 current identification.
 
@@ -589,6 +604,9 @@ assistant, or data capture person.
 Preconditions
 ~~~~~~~~~~~~~
 
+A photo of a specimen that is no longer kept in the collection.
+
+
 Course of events
 ~~~~~~~~~~~~~~~~
 
@@ -600,6 +618,10 @@ Success post-conditions
 
 Notes
 ~~~~~
+
+What about the use case when there is both specimen and a photo of that 
+specimen?
+
 
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
@@ -621,6 +643,10 @@ weight of an animal may have been recorded at two separate occasions.
 
 Actors
 ~~~~~~
+
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
 
 
 Preconditions
@@ -654,7 +680,7 @@ Adding two collecting events for an individual - draft
 ------------------------------------------------------
 
 There may be more than one collecting event for a single biological individual. 
-An example involves the botanist who collects material (e.g. flowers and 
+One example involves the botanist who collects material (e.g. flowers and 
 fruits, respectively) from a tree at two different occasions during a season.
 
 
@@ -696,18 +722,22 @@ Model treatment: nrm
 Recognizing that a specimen is type for two names (at the same time) - draft
 ----------------------------------------------------------------------------
 
-A specimen can be a nomenclatural type for more than one name at the same time.
-This is rare, but can be seen for example in botany where two duplicate 
-specimens located at different herbaria has been used (unintentionally) to 
-typify different names.
-
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
+A specimen can be a nomenclatural type for more than one name at the same time.
+This is rare, but can be seen for example in botany where two duplicate 
+specimens located at different herbaria has been used (unintentionally) as 
+types for different names.
+
 
 Actors
 ~~~~~~
+
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
 
 
 Preconditions
@@ -740,13 +770,13 @@ Model treatment: nrm
 Add a second-level catalog number to a specimen - draft
 -------------------------------------------------------
 
-The situation to have two-level-identifiers for specimens is quite common. 
-The lowest level identifier is sometimes composed of the higher level 
-identifier plus a suffix.
-
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
+
+The situation to have two-level-identifiers for specimens is quite common. 
+The lowest level identifier is sometimes composed of the higher level 
+identifier plus a suffix.
 
 
 Actors
