@@ -481,17 +481,17 @@ belongs to another physical unit.
 Notes
 ~~~~~
 
-There a three major reasons for recognizing nested preparations: First, one 
+There are several reasons for recognizing nested preparations: First, one 
 may want to record data separately for different container objects (like for 
 example different preparation dates for the package and the herbarium sheet). 
 Secondly, one may want to describe the physical position of one or more 
 samples with respect to each other and to the full object that is being stored 
 on the shelf. This is especially useful if there are multiple small samples 
-stored together. The last reason has to do with transaction management. In 
-some collections, only a part of the stored object is part of a transaction, 
-like when a pollen slide is detached from its herbarium sheet and sent on loan.
-Nested preparations allows the user to indicate what material has been sent 
-out on loan and what is still on shelf.
+grouped together. Another reason has to do with transaction management. Some 
+collections allow parts of their stored objects to be sent on loan. For 
+example, a pollen slide may be detached from its herbarium sheet before being
+sent on loan. Nested preparations allows the user to indicate what 
+material has been sent out on loan and what is still on the shelf.
 
 
 Model treatment: nrm
