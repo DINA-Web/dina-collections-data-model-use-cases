@@ -4,7 +4,7 @@ Use cases
 This document describes system use cases that have implications on model core
 of the DINA-Web collection management system. The use cases are written at a
 high level, just detailed enough to capture requirements for the development of
-the data model core.
+the data model core. The use cases have not been prioritized!
 
 
 .. contents:: Table of contents
@@ -22,7 +22,9 @@ Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
 A collection manager wishes to mark one of two DNA-samples from the same
-individual as potentially contaminated.
+individual as potentially contaminated. This may be needed in order
+to trace for example erroneous identifications.
+
 
 Actors
 ~~~~~~
@@ -95,6 +97,7 @@ without being required to create a new preparation. In this use case, a
 detachable parts. This may for example involve cases when there is a jar with 
 five fishes of the same species and the collection manager wants to send only 
 one of the fishes on loan.
+
 
 Actors
 ~~~~~~
@@ -186,12 +189,13 @@ Actors
 manage a collection, possibly a curator, a collection manager, a collection
 assistant, or data capture person.
 
+
 Preconditions
 ~~~~~~~~~~~~~
 
 Two specimens have been registered separately with different collecting dates.
 Both the verbatim date and interpreted date differ between the specimens. The
-specimens share a unique field number, so it can be assumed that they have been
+specimens share a unique field number, so one can assume that they have been
 collected during the same event.
 
 
@@ -251,8 +255,8 @@ Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
 A collection manager wishes to create a new specimen (sample) from an existing
-one. The parent specimen may have identificaitons which the child specimen is 
-supposed to inherit.
+one. The parent specimen may have taxonomic identificaitons (or other
+observations) which the child specimen is supposed to inherit.
 
 
 Actors
@@ -279,10 +283,10 @@ Course of events
 
 #. The system asks the collection manager whether (1) the new sample should
    belong to a separate preparation and (2) whether the new sample should
-   represent a new individual or group of individual.
+   represent a new individual or group of individuals.
 
 #. The collection manager chooses to treat the new sample as belonging to the
-   same a individual or group of individual, but as belonging to a separate
+   same a individual or group of individuals, but as belonging to a separate
    preparation.
 
 
@@ -296,7 +300,8 @@ Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 A derived specimen (sample) has been created with a separate preparation. 
-The derived sample shares the determination with the sample from which it was derived.
+The derived sample shares the determination with the sample from which it was 
+derived.
 
 
 Notes
@@ -363,10 +368,10 @@ Course of events
    
    - individual (or group of individuals)?
    
-   - catalog number?
+   - cataloged unit (i.e. catalog number)?
 
 #. The collection manager creates a new record that represents a different 
-   physical unit, a different individual, and a different catalog number.
+   physical unit, a different individual, and a different cataloged unit.
 
 
 Alternative paths
@@ -389,7 +394,8 @@ Notes
 
 Splitting specimens into smaller units is common in many collections. Though, 
 not all collections care about recording the history of the splitting
-events. This use case is very similar to creating
+events. This use case is  similar to the use case "Creating a derived specimen 
+that represents the same individual".
 
 
 Model treatment: nrm
@@ -438,20 +444,23 @@ Course of events
 
 #. The collection manager opens an empty specimen record.
 
-#. The system adds a default highest level preparation for the specimen.
+#. The system adds a default preparation for the specimen.
 
 #. The collection manager identifies (enters or generates an ID-number for) the
    specimen.
 
-#. The collection manager enters relevant information about the specimen and
-   the default preparation.
+#. The collection manager enters relevant information about the specimen 
+   (e.g. that it is a moss) and the default preparation (e.g. that it is a 
+   herbarium sheet).
 
 #. The collection manager selects the default preparation and creates a child
    preparation.
 
-#. The collection manager enters information about the child preparation.
+#. The collection manager enters information about the child preparation 
+   (e.g. that it is a package mounted on the herbarium sheet).
 
-#. The collection manager moves the specimen to the new child preparation.
+#. The collection manager associates the specimen record with the child 
+   preparation (instead of the parent preparation).
 
 #. The collection manager saves the specimen record.
 
@@ -472,7 +481,17 @@ belongs to another physical unit.
 Notes
 ~~~~~
 
-None.
+There are several reasons for recognizing nested preparations: First, one 
+may want to record data separately for different container objects (like for 
+example different preparation dates for the package and the herbarium sheet). 
+Secondly, one may want to describe the physical position of one or more 
+samples with respect to each other and to the full object that is being stored 
+on the shelf. This is especially useful if there are multiple small samples 
+grouped together. Another reason has to do with transaction management. Some 
+collections allow parts of their stored objects to be sent on loan. For 
+example, a pollen slide may be detached from its herbarium sheet before being
+sent on loan. Nested preparations allows the user to indicate what 
+material has been sent out on loan and what is still on the shelf.
 
 
 Model treatment: nrm
@@ -481,20 +500,21 @@ Model treatment: nrm
 One material sample (with one identifiable unit) that belong to a physical unit
 that in turn belong to the highest level physical unit.
 
+
 -------------------
 
 
-Transcribing text from an information source - draft
-----------------------------------------------------
+Transcribing text from an information source
+--------------------------------------------
+
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes a user wants to add information that is available without making 
-interpretations of the content. In other words, the user wants to record whats
-there – not the actual meaning of the information. This use case involves how 
-to deal with those situations, but involves also how to record information 
-about the source.
+Sometimes a user wants to add information that is available without 
+interpreting it. In other words, the user wants to record what s there – not 
+the actual meaning of the information. This is related to recording metadata 
+about the information source.
 
 
 Actors
@@ -504,29 +524,57 @@ Actors
 manage a collection, possibly a curator, a collection manager, a collection
 assistant, or data capture person.
 
+
 Preconditions
 ~~~~~~~~~~~~~
+
+A specimen has been registered with a catalog number. The specimen has a label
+with what seems to be a place name. This is the only information on the label,
+and the information has not yet been entered into the system.
 
 
 Course of events
 ~~~~~~~~~~~~~~~~
 
+#. The collection manager selects the specimen record.
+
+#. The collection manager registers the label (just as a "label" attached to
+   the specimen).
+
+#. The collection manager transcribes the text on the label as "verbatim 
+   locality", and associates the information with the recently created label 
+   record.
+
+
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+None described.
+
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+A record for the label has been created and associated with the specimen
+record. The text on the label has been entered into the system as a "verbatim
+locality".
+
 
 Notes
 ~~~~~
 
 Many collections record verbatim text, but are usually less concerned with 
-where the information comes from.
+where the information comes from. Though, it may be useful to know whether two
+pieces of information (e.g. collecting locality and collecting date) come from
+the same source (i.e. the same label).
 
 
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
 
+One artificial unit representing the label, one transcribed content 
+representing the text transcribed from the label that is of transcribed 
+content type "verbatim locality".
 
 -------------------
 
@@ -537,18 +585,27 @@ Adding a determination based on an image - draft
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
-Some collections treat physical or digital photos as collection object. This
-is especially important whan the original physical material has been lost or
-destroyed. With small animals, for example, it is common that all material is
-consumed in a genetic analysis. In these cases may the image serve as valuable
-historical reference. As with physical material, an image may be redetermined
-as something else.
+Some collections treat digital photos in the same way as physical collection
+objects. This is often the case when the original physical material has been 
+lost or destroyed (like when small animals are consumed in genetic analyses). 
+The image then serves a valuable historical reference. As with any physical 
+material, an image may later be identified as a different taxon than the 
+current identification.
+
 
 Actors
 ~~~~~~
 
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
+
+
 Preconditions
 ~~~~~~~~~~~~~
+
+A photo of a specimen that is no longer kept in the collection.
+
 
 Course of events
 ~~~~~~~~~~~~~~~~
@@ -561,6 +618,10 @@ Success post-conditions
 
 Notes
 ~~~~~
+
+What about the use case when there is both specimen and a photo of that 
+specimen?
+
 
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
@@ -572,31 +633,41 @@ Model treatment: nrm
 Adding two observations of the same kind - draft
 ------------------------------------------------
 
-Sometimes a user wishes to add more than one observation of the same kind,
-without necessarily deciding on their respective official status. For example,
-the body weight of an animal may have been recorded at two separate occasions.
-
-
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
+
+Sometimes a user wishes to add more than one observation of the same kind,
+without necessarily deciding on their official statuses. For example, the body 
+weight of an animal may have been recorded at two separate occasions.
+
 
 Actors
 ~~~~~~
 
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
+
+
 Preconditions
 ~~~~~~~~~~~~~
+
 
 Course of events
 ~~~~~~~~~~~~~~~~
 
+
 Alternative paths
 ~~~~~~~~~~~~~~~~~
+
 
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
 Notes
 ~~~~~
+
 
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
@@ -609,30 +680,37 @@ Adding two collecting events for an individual - draft
 ------------------------------------------------------
 
 There may be more than one collecting event for a single biological individual. 
-An example involves the botanist who collects material (e.g. flowers and fruit, 
-respectively) from a tree at two different occasions during a season.
+One example involves the botanist who collects material (e.g. flowers and 
+fruits, respectively) from a tree at two different occasions during a season.
 
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
+
 Actors
 ~~~~~~
+
 
 Preconditions
 ~~~~~~~~~~~~~
 
+
 Course of events
 ~~~~~~~~~~~~~~~~
+
 
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
 Notes
 ~~~~~
+
 
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
@@ -644,35 +722,47 @@ Model treatment: nrm
 Recognizing that a specimen is type for two names (at the same time) - draft
 ----------------------------------------------------------------------------
 
-A specimen can be a nomenclatural type for more than one name at the same time.
-This is rare, but can be seen for example in botany where two duplicate 
-specimens located at different herbaria has been used (unintentionally) to 
-typify different names.
-
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
+A specimen can be a nomenclatural type for more than one name at the same time.
+This is rare, but can be seen for example in botany where two duplicate 
+specimens located at different herbaria has been used (unintentionally) as 
+types for different names.
+
+
 Actors
 ~~~~~~
+
+**Collection manager** (in a wide sense) – a person that uses the system to
+manage a collection, possibly a curator, a collection manager, a collection
+assistant, or data capture person.
+
 
 Preconditions
 ~~~~~~~~~~~~~
 
+
 Course of events
 ~~~~~~~~~~~~~~~~
+
 
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Notes
 ~~~~~
 
+
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
+
 
 -------------------
 
@@ -680,34 +770,42 @@ Model treatment: nrm
 Add a second-level catalog number to a specimen - draft
 -------------------------------------------------------
 
-The situation to have two-level-identifiers for specimens is quite common. 
-Sometimes is the lowest level identifier composed of the higher level 
-identifier plus some suffix.
-
 
 Background/Motivation
 ~~~~~~~~~~~~~~~~~~~~~
 
+The situation to have two-level-identifiers for specimens is quite common. 
+The lowest level identifier is sometimes composed of the higher level 
+identifier plus a suffix.
+
+
 Actors
 ~~~~~~
+
 
 Preconditions
 ~~~~~~~~~~~~~
 
+
 Course of events
 ~~~~~~~~~~~~~~~~
+
 
 Alternative paths
 ~~~~~~~~~~~~~~~~~
 
+
 Success post-conditions
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 
 Notes
 ~~~~~
 
+
 Model treatment: nrm
 ~~~~~~~~~~~~~~~~~~~~
+
 
 -------------------
 
