@@ -1,7 +1,6 @@
-# Information model use cases
+# DINA collections data model use cases
 
-Collected system use cases for the development of the DINA-Web information
-model.
+Collected system use cases for the development of the DINA-Web collections data model.
 
 
 ## Use case template
