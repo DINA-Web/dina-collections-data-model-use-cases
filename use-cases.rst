@@ -4,7 +4,16 @@ Use cases
 This document describes system use cases that have implications on model core
 of the DINA-Web collection management system. The use cases are written at a
 high level, just detailed enough to capture requirements for the development of
-the data model core. The use cases have not been prioritized!
+the data model core. The intended audience is anyone interested in the
+conceptual understanding of collection management, which may for example
+include end users, domain specialists and developers. The document serve as a
+knowledge base and is updated continously.
+
+More information about the conceptual model, see the 
+`DINA-Web collections data model repository 
+<https://github.com/DINA-Web/dina-collections-data-model>`_.
+
+The use cases have not been prioritized!
 
 
 .. contents:: Table of contents
