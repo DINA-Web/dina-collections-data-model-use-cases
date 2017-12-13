@@ -17,7 +17,7 @@ Collected system use cases for the development of DINA-Web.
 
 ## Use case naming
 
- * put use cases for a particular model into a subfolder (e.g. '[taxonomy](https://github.com/DINA-Web/dina-use-cases/tree/master/taxonomy)'
+ * put use cases for a particular model into a subfolder (e.g. '[taxonomy](https://github.com/DINA-Web/dina-use-cases/tree/master/taxonomy)')
  * Use case names follow the format `[id]-[description_underscore_that_potentially_can_be_long].md`.
  * `[id]` is a 0-padded number used to quickly refer to a use case and shall be unique within the context of each module.
  * If you want to remove a use case, simply move it into a subfolder called `deprecated`.  Do not delete the file. 
