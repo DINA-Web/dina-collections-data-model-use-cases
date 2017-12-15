@@ -40,3 +40,9 @@ Part of a specimen, removed / extracted for downstream analysis (e.g. DNA sequen
 
 ## Specimen
 A physical item in a natural history collection. Primary unit in a collections management system. May include one or more taxa. See DwC  [MaterialSample](http://rs.tdwg.org/dwc/terms/#MaterialSample).
+
+## Taxon
+A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.
+See DwC [Taxon](http://rs.tdwg.org/dwc/terms/index.htm#Taxon)
+
+## Taxon Concept
