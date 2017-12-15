@@ -1,4 +1,4 @@
-Adding two collecting events for an individual - draft
+10. Adding two collecting events for an individual - draft
 ------------------------------------------------------
 
 There may be more than one collecting event for a single biological individual.

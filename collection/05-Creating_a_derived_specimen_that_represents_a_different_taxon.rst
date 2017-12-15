@@ -1,4 +1,4 @@
-Creating a derived specimen that represents a different taxon
+5. Creating a derived specimen that represents a different taxon
 -------------------------------------------------------------
 
 Background/Motivation

@@ -1,4 +1,4 @@
-Transcribing text from an information source
+7. Transcribing text from an information source
 --------------------------------------------
 
 

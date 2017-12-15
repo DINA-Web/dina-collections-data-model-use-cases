@@ -1,4 +1,4 @@
-Adding two observations of the same kind - draft
+9. Adding two observations of the same kind - draft
 ------------------------------------------------
 
 Background/Motivation

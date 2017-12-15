@@ -1,4 +1,4 @@
-Recognizing that a specimen is type for two names (at the same time) - draft
+11. Recognizing that a specimen is type for two names (at the same time) - draft
 ----------------------------------------------------------------------------
 
 

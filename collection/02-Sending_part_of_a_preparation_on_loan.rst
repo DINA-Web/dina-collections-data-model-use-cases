@@ -1,4 +1,4 @@
-Sending part of a preparation on loan
+2. Sending part of a preparation on loan
 -------------------------------------
 
 Background/Motivation

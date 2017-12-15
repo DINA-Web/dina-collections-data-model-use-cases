@@ -1,4 +1,4 @@
-Resolving conflicting collecting dates
+3. Resolving conflicting collecting dates
 --------------------------------------
 
 Background/Motivation

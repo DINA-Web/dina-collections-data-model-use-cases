@@ -1,4 +1,4 @@
-Recognizing an additional individual for a specimen - draft
+13. Recognizing an additional individual for a specimen - draft
 -----------------------------------------------------------
 
 

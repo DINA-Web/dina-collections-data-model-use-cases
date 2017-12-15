@@ -1,4 +1,4 @@
-Marking a DNA-sample as contaminated
+1. Marking a DNA-sample as contaminated
 ------------------------------------
 
 Background/Motivation

@@ -1,4 +1,4 @@
-Add a second-level catalog number to a specimen - draft
+12. Add a second-level catalog number to a specimen - draft
 -------------------------------------------------------
 
 

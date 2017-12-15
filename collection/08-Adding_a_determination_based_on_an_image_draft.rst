@@ -1,4 +1,4 @@
-Adding a determination based on an image - draft
+8. Adding a determination based on an image - draft
 ------------------------------------------------
 
 Background/Motivation

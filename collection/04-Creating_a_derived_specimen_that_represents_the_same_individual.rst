@@ -1,4 +1,4 @@
-Creating a derived specimen that represents the same individual
+4. Creating a derived specimen that represents the same individual
 ---------------------------------------------------------------
 
 Background/Motivation

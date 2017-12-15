@@ -1,4 +1,4 @@
-Registering a specimen that belongs to a nested preparation
+6. Registering a specimen that belongs to a nested preparation
 -----------------------------------------------------------
 
 Background/Motivation
