@@ -46,3 +46,5 @@ A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) consider
 See DwC [Taxon](http://rs.tdwg.org/dwc/terms/index.htm#Taxon)
 
 ## Taxon Concept
+"Taxonomic concepts (sensu Berendsohn) embody the underlying meanings of scientific names as stated in a particular publication ..."
+Source: N.M. Franz and R.K. Peet. (2009) Perspectives: Towards a language for mapping relationships among taxonomic concepts http://www.tandfonline.com/doi/abs/10.1017/S147720000800282X 
