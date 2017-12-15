@@ -47,4 +47,4 @@ See DwC [Taxon](http://rs.tdwg.org/dwc/terms/index.htm#Taxon)
 
 ## Taxon Concept
 "Taxonomic concepts (sensu Berendsohn) embody the underlying meanings of scientific names as stated in a particular publication ..."
-Source: N.M. Franz and R.K. Peet. (2009) Perspectives: Towards a language for mapping relationships among taxonomic concepts http://www.tandfonline.com/doi/abs/10.1017/S147720000800282X 
+Source: N.M. Franz and R.K. Peet. (2009) Perspectives: Towards a language for mapping relationships among taxonomic concepts https://doi.org/10.1017/S147720000800282X
