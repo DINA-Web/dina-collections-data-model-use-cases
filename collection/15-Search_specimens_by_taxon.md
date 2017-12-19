@@ -8,7 +8,7 @@ A user wants to search all specimens based on a taxon name.
 Collection manager: A person working with the collections system, possibly a curator, a collection manager, a collection assistant, or data capture person.
 
 ## Preconditions
-None
+At least one specimen with an accepted identification exists.
 
 ## Course of events
 1. User enter the name of a taxon
@@ -21,12 +21,12 @@ None
 
 ### Searching using taxonomy 
 1. User enter the name of a taxon
-1. The system display information about the name (see [30. Search taxon names](../taxonomy/30-Search_taxon_names.md))
+1. The system display information about the name (see [taxonomy/30. Search taxon names](../taxonomy/30-Search_taxon_names.md))
 1. The system display all specimens where the current identification is related to the taxon (e.g. including synonyms)
 
 ## Success post-conditions
 
-1. The specimen information is saved in the database and a unique identifier is assigned to it.
+1. The user can visualize all the specimens related to the provided taxon name.
 
 ## Notes
 
