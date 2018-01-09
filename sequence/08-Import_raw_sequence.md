@@ -11,7 +11,7 @@ Lab technician
 - Have a sequence file in ab1 format
 
 ## Course of events
-1. The user selects the PCR batch/reaction tube (?)
+1. The user selects the sequence reaction
 1. The user selects the raw sequence file to import
 
 ## Alternative paths
@@ -20,7 +20,7 @@ Lab technician
 ## Success post-conditions
 
 1. The raw sequence file is copied to the server filesystem
-1. The raw sequence file is linked to the reaction tube of the PCR batch (?)
+1. The raw sequence file is linked to the sequence reaction
 
 ## Notes
 
