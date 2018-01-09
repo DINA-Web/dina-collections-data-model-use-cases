@@ -1,4 +1,4 @@
-# 06. Import raw sequence file
+# 08. Import raw sequence file
 
 ## Background/Motivationn
 
@@ -8,7 +8,7 @@ A user wants to import a raw sequence file.
 Lab technician
 
 ## Preconditions
-- Have a sequence file in FASTA format
+- Have a sequence file in ab1 format
 
 ## Course of events
 1. The user selects the PCR batch/reaction tube (?)

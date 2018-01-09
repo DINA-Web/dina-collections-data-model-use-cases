@@ -1,4 +1,4 @@
-# 05. Enter PCR reaction result
+# 07. Enter PCR reaction result
 
 ## Background/Motivationn
 
@@ -8,7 +8,7 @@ A user wants to enter the results of a PCR reaction.
 Lab technician
 
 ## Preconditions
-- [04. Add a PCR reaction](04-Add_a_PCR_reaction.md)
+- [06. Add a PCR reaction](06-Add_a_PCR_reaction.md)
 - Have the results of the reaction
 
 ## Course of events

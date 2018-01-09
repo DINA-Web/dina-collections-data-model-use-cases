@@ -1,4 +1,4 @@
-# 04. Add a PCR reaction
+# 06. Add a PCR reaction
 
 ## Background/Motivationn
 
@@ -9,9 +9,10 @@ Lab technician
 
 ## Preconditions
 - [01. Add a sample](01-Add_a_sample.md)
-- [03. Add a PCR batch](03-Add_a_PCR_batch.md)
+- [05. Add a PCR batch](05-Add_a_PCR_batch.md)
 
 ## Course of events
+1. The use enters the well coordinates of the reaction’s tube
 1. The user selects the sample to which the PCR reaction will be applied
 1. The user selects the PCR Batch
 1. If required, the user overides values of the gene region and primers from the PCR batch
