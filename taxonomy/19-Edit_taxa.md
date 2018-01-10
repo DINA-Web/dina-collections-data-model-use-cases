@@ -1,13 +1,13 @@
 # 19. Edit taxa
 
 ## Background/Motivation
-A collection manager wants to edit a taxon. 
+A collection manager wants to edit a taxon to make changes to it (e.g. typing error correction).
 
 ## Actors
 Collection manager (in a wide sense) – a person that uses the system to manage a collection, possibly a curator, a collection manager, a collection assistant, or data capture person.
 
 ## Preconditions
-A taxon record exists and the user wants to make changes to it.
+A taxon record exists
 
 ## Course of events
   1. The user opens a form to edit an existing taxon.
