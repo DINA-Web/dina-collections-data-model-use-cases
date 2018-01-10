@@ -14,9 +14,9 @@ At least one taxon exists in the taxonomy database.
 1. User enters a string representing a full or partial taxonomic name
 1. System presents a list of potential taxon names to the user
 1. User selects appropriate name from list
-1. System presents information associated with that name.
+1. System presents information associated with that name
 
-## Alternative paths
+## Alternative path 1: Filtering results
 
 1. User enters a string representing a full or partial taxonomic name
 1. System presents a list of potential taxon names to the user
@@ -24,7 +24,14 @@ At least one taxon exists in the taxonomy database.
 1. User enters filter criteria
 1. System filters list based on criteria and presents filtered list to user.
 1. User selects appropriate name from list.
-1. System presents information associated with that name.
+1. System presents information associated with that name
+
+## Alternative path 2: Autocomplete
+
+1. User enters a string representing a part of a taxonomic name (>= 3 letters)
+1. System presents a list of potential taxon names to the user
+1. User selects appropriate name from list
+1. System presents information associated with that name
 
 ## Success post-conditions
 
