@@ -2,7 +2,7 @@
 
 ## Background/Motivation
 
-A user wants to find taxa based on some parameters.
+A user wants to query/filter taxa based on one or more parameters.
 
 ## Actors
 Collection manager: A person working with the collections system, possibly a curator, a collection manager, a collection assistant, or data capture person.
@@ -11,8 +11,8 @@ Collection manager: A person working with the collections system, possibly a cur
 At least one taxon exists in the taxonomy database.
 
 ## Course of events
-1. User enters the value for one or more of the folling parameters: rank, name, classification, ancestor (of a single taxon key), 
-return_related [ancestor, parent, siblings, immediate_children, basionym, accepted]
+1. The user selects one of the folling options: `rank` or `classification`
+1. The user enters or selects the value
 1. System presents a list of potential taxon to the user
 
 ## Success post-conditions
