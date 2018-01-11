@@ -1,4 +1,4 @@
-# 30. Search taxon names
+# 31. Search taxon names
 
 ## Background/Motivation
 
