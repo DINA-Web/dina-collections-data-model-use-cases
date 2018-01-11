@@ -21,7 +21,7 @@ At least one taxon exists in the taxonomy database.
 1. User enters a string representing a full or partial taxonomic name
 1. System presents a list of potential taxon names to the user
 1. The list is long, so user wants to filter the list of results to more easily find the right name
-1. User enters filter criteria
+1. User enters filter criteria (see [32-Query taxa](https://github.com/DINA-Web/dina-use-cases/blob/master/taxonomy/32-Query_taxa.md))
 1. System filters list based on criteria and presents filtered list to user.
 1. User selects appropriate name from list.
 1. System presents information associated with that name
