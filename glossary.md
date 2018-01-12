@@ -42,7 +42,9 @@ The type of specimen, or the process used to preserve the specimen, e.g. fossil,
 Part of a specimen, removed / extracted for downstream analysis (e.g. DNA sequencing). Does not correspond exactly to any Darwin Core term (would also be considered [MaterialSample](http://rs.tdwg.org/dwc/terms/#MaterialSample)?)
 
 ## Specimen
-A physical item in a natural history collection. Primary unit in a collections management system. May include one or more taxa. See DwC  [MaterialSample](http://rs.tdwg.org/dwc/terms/#MaterialSample).
+A physical item in a natural history collection. Primary unit in a collections management system. May include one or more taxa.
+
+See DwC [MaterialSample](http://rs.tdwg.org/dwc/terms/#MaterialSample).
 
 ## Synonym
 An alternative [Taxon Name](#taxon_name) that applies to the same [Taxon](#taxon) as another(different) [Taxon Name](#taxon_name). May be subjective to a taxonomic viewpoint.
@@ -59,8 +61,11 @@ Source: N.M. Franz and R.K. Peet. (2009) Perspectives: Towards a language for ma
 
 "Classification and the rules of nomenclature frequently cause species names to be changed or redefined. To be clear what we mean by a taxon name, we should refer to the name and the reference to the publication in which the species is described."
 Source: TDWG, TCS Executive Summary (2005). Retrieved from http://www.tdwg.org/fileadmin/subgroups/tnc/Exec_summary_TCS.pdf
+
 See TDWG [Taxon Concept Schema](http://www.tdwg.org/fileadmin/subgroups/tnc/Exec_summary_TCS_Appendix.pdf) appendix
 
 ## Taxon Name
 Names given to a [Taxon](#taxon) that could be independent of its classification (e.g. if rank is above the rank of genus).
+Taxon Names are labels in accordance with the rules of Biological Codes of Nomenclature.
+
 See DwC [scientificName](http://rs.tdwg.org/dwc/terms/index.htm#scientificName)
