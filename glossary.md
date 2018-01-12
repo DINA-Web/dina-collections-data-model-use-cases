@@ -2,6 +2,9 @@
 
 Brief definitions of terms in the use case documents. Contains links to related [DarwinCore terms](http://tdwg.github.io/dwc/terms/) (although we are not making committment to using DwC terms or any assertions about using DwC terms in exactly the same way).
 
+## Classification
+Hierarchy of [Taxon](#Taxon) where each of them has a rank.
+
 ## Collection manager
 The person responsible for the collection.
 
@@ -48,3 +51,7 @@ See DwC [Taxon](http://rs.tdwg.org/dwc/terms/index.htm#Taxon)
 ## Taxon Concept
 "Taxonomic concepts (sensu Berendsohn) embody the underlying meanings of scientific names as stated in a particular publication ..."
 Source: N.M. Franz and R.K. Peet. (2009) Perspectives: Towards a language for mapping relationships among taxonomic concepts https://doi.org/10.1017/S147720000800282X
+
+## Taxon Name
+Names given to a [Taxon](#Taxon) that could be independent of its classification (e.g. if rank is above the rank of genus).
+See DwC [scientificName](http://rs.tdwg.org/dwc/terms/index.htm#scientificName)
