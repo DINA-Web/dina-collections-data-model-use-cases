@@ -47,7 +47,7 @@ A physical item in a natural history collection. Primary unit in a collections m
 See DwC [MaterialSample](http://rs.tdwg.org/dwc/terms/#MaterialSample).
 
 ## Synonym
-An alternative [Taxon Name](#taxon_name) that applies to the same [Taxon](#taxon) as another(different) [Taxon Name](#taxon_name). May be subjective to a taxonomic viewpoint.
+General term to represent an alternative [Taxon Name](#taxon_name) that applies to the same [Taxon](#taxon) as another(different) [Taxon Name](#taxon_name). A synonym can be caused by a taxonomic change (which may be subjective to a taxonomic viewpoint) or a nomenclatural change. For taxonomic changes, more specific terms include: homotypic synonym, heterotypic synonym, pro-parte synonym. For nomenclatural changes the concept of synonyms is extended to represent specific terms like: illegitimum, nullum, orthographia, protectum ...
 
 ## Taxon
 A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.
