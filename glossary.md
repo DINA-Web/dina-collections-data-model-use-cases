@@ -49,11 +49,17 @@ An alternative [Taxon Name](#taxon_name) that applies to the same [Taxon](#taxon
 
 ## Taxon
 A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.
+Taxa are placed at specific ranks in taxonomic hierarchie ([Classification](#classification)) and their description is expressed as [Taxon Concept](#taxon_concept).
+
 See DwC [Taxon](http://rs.tdwg.org/dwc/terms/index.htm#Taxon)
 
 ## Taxon Concept
 "Taxonomic concepts (sensu Berendsohn) embody the underlying meanings of scientific names as stated in a particular publication ..."
 Source: N.M. Franz and R.K. Peet. (2009) Perspectives: Towards a language for mapping relationships among taxonomic concepts https://doi.org/10.1017/S147720000800282X
+
+"Classification and the rules of nomenclature frequently cause species names to be changed or redefined. To be clear what we mean by a taxon name, we should refer to the name and the reference to the publication in which the species is described."
+Source: TDWG, TCS Executive Summary (2005). Retrieved from http://www.tdwg.org/fileadmin/subgroups/tnc/Exec_summary_TCS.pdf
+See TDWG [Taxon Concept Schema](http://www.tdwg.org/fileadmin/subgroups/tnc/Exec_summary_TCS_Appendix.pdf) appendix
 
 ## Taxon Name
 Names given to a [Taxon](#taxon) that could be independent of its classification (e.g. if rank is above the rank of genus).
