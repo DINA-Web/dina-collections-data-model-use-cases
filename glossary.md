@@ -3,7 +3,7 @@
 Brief definitions of terms in the use case documents. Contains links to related [DarwinCore terms](http://tdwg.github.io/dwc/terms/) (although we are not making committment to using DwC terms or any assertions about using DwC terms in exactly the same way).
 
 ## Classification
-Hierarchy of [Taxon](#Taxon) where each of them has a rank.
+Hierarchy of [Taxon](#taxon) where each of them has a rank.
 
 ## Collection manager
 The person responsible for the collection.
@@ -44,6 +44,9 @@ Part of a specimen, removed / extracted for downstream analysis (e.g. DNA sequen
 ## Specimen
 A physical item in a natural history collection. Primary unit in a collections management system. May include one or more taxa. See DwC  [MaterialSample](http://rs.tdwg.org/dwc/terms/#MaterialSample).
 
+## Synonym
+An alternative [Taxon Name](#taxon_name) that applies to the same [Taxon](#taxon) as another(different) [Taxon Name](#taxon_name). May be subjective to a taxonomic viewpoint.
+
 ## Taxon
 A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.
 See DwC [Taxon](http://rs.tdwg.org/dwc/terms/index.htm#Taxon)
@@ -53,5 +56,5 @@ See DwC [Taxon](http://rs.tdwg.org/dwc/terms/index.htm#Taxon)
 Source: N.M. Franz and R.K. Peet. (2009) Perspectives: Towards a language for mapping relationships among taxonomic concepts https://doi.org/10.1017/S147720000800282X
 
 ## Taxon Name
-Names given to a [Taxon](#Taxon) that could be independent of its classification (e.g. if rank is above the rank of genus).
+Names given to a [Taxon](#taxon) that could be independent of its classification (e.g. if rank is above the rank of genus).
 See DwC [scientificName](http://rs.tdwg.org/dwc/terms/index.htm#scientificName)
