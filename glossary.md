@@ -2,6 +2,9 @@
 
 Brief definitions of terms in the use case documents. Contains links to related [DarwinCore terms](http://tdwg.github.io/dwc/terms/) (although we are not making committment to using DwC terms or any assertions about using DwC terms in exactly the same way).
 
+## Autonym
+A subspecies or variety name that is the duplicate of the specific epithet. Autonyms are formed when a new subspecies or variety is described by an author. Autonyms carry the name of the author of the species and are based on the original type specimen; they do not require a new description. Source: Northern Ontario Flora
+
 ## Basionym
 “Basionym provides the final epithet, name, or stem of the new combination or name at new rank” (ICN Art. 6.10 & Art. 41). It is the orginal combination of a name as viewed from a new combination. The basionym is therefore always relative to a new combination. Source: CoL+
 
@@ -47,6 +50,9 @@ A single piece of data about a specimen made at a particular time, e.g. a taxono
 ## Preparation
 The type of specimen, or the process used to preserve the specimen, e.g. fossil, cast, skeleton, whole animal, etc. See DwC [preparations](http://tdwg.github.io/dwc/terms/#preparations). Can this also be used with samples?
 
+## Pro parte
+Indicates that the name (as a synonym) has been used in a broad concept to include the correct, currently accepted name under which it is listed, as well as at least one other correct, currently accepted name. In other words, it means that some, but not all, individuals identified as this species are synonymous with the accepted species.
+
 ## Sample
 Part of a specimen, removed / extracted for downstream analysis (e.g. DNA sequencing). Does not correspond exactly to any Darwin Core term (would also be considered [MaterialSample](http://rs.tdwg.org/dwc/terms/#MaterialSample)?)
 
@@ -56,7 +62,7 @@ A physical item in a natural history collection. Primary unit in a collections m
 See DwC [MaterialSample](http://rs.tdwg.org/dwc/terms/#MaterialSample).
 
 ## Synonym
-General term to represent an alternative [Taxon Name](#taxon_name) that applies to the same [Taxon](#taxon) as another (different) [Taxon Name](#taxon_name). A synonym can be caused by a taxonomic change (which may be subjective to a taxonomic viewpoint) or a change made to comply with the rules of nomenclature. See also [Homotypic synonym](#homotypic_synonym) and [Heterotypic synonym](#heterotypic_synonym).
+General term to represent an alternative [Taxon Name](#taxon_name) that applies to the same [Taxon](#taxon) as another (different) [Taxon Name](#taxon_name). A synonym can be caused by a taxonomic change (which may be subjective to a taxonomic viewpoint) or a change made to comply with the rules of nomenclature. See also [Homotypic synonym](#homotypic-synonym) and [Heterotypic synonym](#heterotypic-synonym).
 
 ## Taxon
 A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.
