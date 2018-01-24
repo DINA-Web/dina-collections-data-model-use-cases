@@ -2,6 +2,9 @@
 
 Brief definitions of terms in the use case documents. Contains links to related [DarwinCore terms](http://tdwg.github.io/dwc/terms/) (although we are not making committment to using DwC terms or any assertions about using DwC terms in exactly the same way).
 
+## Basionym
+“Basionym provides the final epithet, name, or stem of the new combination or name at new rank” (ICN Art. 6.10 & Art. 41). It is the orginal combination of a name as viewed from a new combination. The basionym is therefore always relative to a new combination. Source: CoL+
+
 ## Classification
 Hierarchy of [Taxon](#taxon) where each of them has a rank.
 
@@ -26,6 +29,12 @@ Making a taxonomic determination (e.g., assignment of a specimen to a taxon). Sy
 ## Determiner
 A person making the assignment of a specimen to a taxon.
 
+## Homotypic synonym
+(nomenclatural synonym). A name based on the same type as that of another name (Art. 14.4); termed an “objective synonym” in the International Code of Zoological Nomenclature and the International Code of Nomenclature of Bacteria (Bacteriological Code) (Art. 14.4 footnote). Source:  International Association for Plant Taxonomy
+
+## Heterotypic synonym
+(taxonomic synonym). A name based on a type different from that of another name referring to the same taxon (Art. 14.4); termed a “subjective synonym” in the International Code of Zoological Nomenclature and the International Code of Nomenclature of Bacteria (Bacteriological Code) (Art. 14.4 footnote). Source:  International Association for Plant Taxonomy
+
 ## Identification
 Synonym of [determination](#determination).
 
@@ -47,7 +56,7 @@ A physical item in a natural history collection. Primary unit in a collections m
 See DwC [MaterialSample](http://rs.tdwg.org/dwc/terms/#MaterialSample).
 
 ## Synonym
-General term to represent an alternative [Taxon Name](#taxon_name) that applies to the same [Taxon](#taxon) as another (different) [Taxon Name](#taxon_name). A synonym can be caused by a taxonomic change (which may be subjective to a taxonomic viewpoint) or a change made to comply with the rules of nomenclature. For taxonomic changes, more specific terms include: homotypic synonym, heterotypic synonym, pro-parte synonym. For nomenclatural changes the concept of synonyms is extended to represent specific terms like: illegitimum, nullum, orthographia, protectum ...
+General term to represent an alternative [Taxon Name](#taxon_name) that applies to the same [Taxon](#taxon) as another (different) [Taxon Name](#taxon_name). A synonym can be caused by a taxonomic change (which may be subjective to a taxonomic viewpoint) or a change made to comply with the rules of nomenclature. See also [Homotypic synonym](#homotypic_synonym) and [Heterotypic synonym](#heterotypic_synonym).
 
 ## Taxon
 A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.
