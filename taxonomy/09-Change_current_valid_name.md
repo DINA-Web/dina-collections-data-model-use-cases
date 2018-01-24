@@ -1,4 +1,4 @@
-# 22. Change current valid name
+# 09. Change current valid name
 
 ## Background/Motivation
 A collection manager wants to change a taxon's currently valid name.

@@ -1,4 +1,4 @@
-# 23. Move taxon in hierarchy
+# 04. Move taxon in hierarchy
 
 ## Background/Motivation
 A collection manager wants to move a taxon to a different hierarchical position.

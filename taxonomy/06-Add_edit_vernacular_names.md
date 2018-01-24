@@ -1,4 +1,4 @@
-# 24. Add/edit vernacular names
+# 06. Add/edit vernacular names
 
 ## Background/Motivation
 A collection manager wants to add or edit vernacular names for a taxon.

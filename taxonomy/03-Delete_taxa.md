@@ -1,4 +1,4 @@
-# 20. Delete taxa
+# 03. Delete taxa
 
 ## Background/Motivation
 A collection manager wants to delete a taxon record.

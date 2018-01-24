@@ -1,4 +1,4 @@
-# 28. Create catalogue
+# 14. Create catalogue
 
 ## Background/Motivation
 The user wants to export a list of specimen records and associated taxonomy in a catalogue format (RTF, Excel).

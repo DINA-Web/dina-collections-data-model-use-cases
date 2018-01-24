@@ -1,4 +1,4 @@
-# 25. Edit consensus classification (need elevated privileges)
+# 12. Edit consensus classification (need elevated privileges)
 
 ## Background/Motivation
 A collection manager with elevated privileges wants to edit a consensus classification.
