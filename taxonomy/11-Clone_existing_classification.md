@@ -1,4 +1,4 @@
-# 17. Clone existing classification
+# 11. Clone existing classification
 
 ## Background/Motivation
 A collection manager wants to clone an existing classification (whole or sub-branch). It can be from a consensus classification.

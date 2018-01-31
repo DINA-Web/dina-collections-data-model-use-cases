@@ -1,4 +1,4 @@
-# 26. Edit sibling taxa
+# 07. Edit sibling taxa
 
 ## Background/Motivation
 A collection manager wants to edit sibling taxa, for example changing higher taxon en masse for all or some. 

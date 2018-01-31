@@ -16,12 +16,12 @@ Some of these categories are orthogonal.
 
 This list might help us find holes, or aspects of the use cases that are primarily relevant to other modules.
 
-* display a `classification` and allow selection of a `taxon` (03)
-* create a `classification` (16, 17, 29)
-* add / edit `taxon` metadata (18, 19, 22, 23, 24, 25, 26, 27)
-* edit `classification` - adding, deleting, moving taxa (03, 18, 19, 20, 21, 23, 25, 26)
-* export taxonomy data (28)
-* find a `taxon` based on name string (30)
+* display a `classification` and allow selection of a `taxon` (15)
+* create a `classification` (10, 11, 13)
+* add / edit `taxon` (01, 02, 04, 06, 07, 08, 09, 12)
+* edit `classification` - adding, deleting, moving taxa (01, 02, 03, 04, 05, 07, 12)
+* export taxonomy data (14)
+* find a `taxon` based on name string (16)
 
 Cases about these actions moved to collections:
 * associate an `identification` with a `specimen` (01, 02, 09, 12)

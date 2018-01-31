@@ -1,4 +1,4 @@
-# 3. Selecting taxon name from a local classification (or adding the name to the classification if it is not there)
+# 15. Selecting taxon name from a local classification (or adding the name to the classification if it is not there)
 
 ## Background/Motivation
 A collection manager wants to select a taxon name from a local classification (or add the name to the classification if it is not there).

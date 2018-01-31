@@ -1,4 +1,4 @@
-# 16. Create a new classification
+# 10. Create a new classification
 
 ## Background/Motivation
 A collection manager wants to create a new classification.

@@ -1,4 +1,4 @@
-# 32. Query taxa
+# 18. Query taxa
 
 ## Background/Motivation
 

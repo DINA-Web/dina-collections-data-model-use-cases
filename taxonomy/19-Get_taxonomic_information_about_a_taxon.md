@@ -1,4 +1,4 @@
-# 33. Get taxonomic information about a taxon
+# 19. Get taxonomic information about a taxon
 
 ## Background/Motivation
 

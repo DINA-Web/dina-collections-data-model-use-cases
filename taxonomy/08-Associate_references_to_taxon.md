@@ -1,4 +1,4 @@
-# 27. Associate references to taxon
+# 08. Associate references to taxon
 
 ## Background/Motivation
 A collection manager wants to associate references to a taxon.

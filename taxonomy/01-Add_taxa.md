@@ -1,4 +1,4 @@
-# 18. Add taxa
+# 01. Add taxa
 
 ## Background/Motivation
 A collection manager wants to add a taxon.

@@ -1,4 +1,4 @@
-# 19. Edit taxa
+# 02. Edit taxa
 
 ## Background/Motivation
 A collection manager wants to edit a taxon to make changes to it (e.g. typing error correction).

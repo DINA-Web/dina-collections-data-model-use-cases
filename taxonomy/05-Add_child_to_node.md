@@ -1,4 +1,4 @@
-# 21. Add child to node
+# 05. Add child to node
 
 ## Background/Motivation
 A collection manager wants to add a new child to a ndoe (i.e. add new species to genus)

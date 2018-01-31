@@ -1,4 +1,4 @@
-# 29. Load existing taxonomy
+# 13. Load existing taxonomy
 
 ## Background/Motivation
 The user wants to migrate taxonomy data into the system via spreadsheet/text/DwC-A/yaml.
