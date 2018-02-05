@@ -1,4 +1,4 @@
-# 14. Distinguishing one history of identification events as being primary
+# 28. Distinguishing one history of identification events as being primary
 
 ## Background/Motivation
 A collection manager wants to distinguish one history of identification events as being primary.
