@@ -21,6 +21,7 @@ Collection manager (in a wide sense) – a person that uses the system to manage
 ## Preconditions
 A specimen has been recorded in the database. The user has text information from the listed categories for an identification record.
 * [taxonomy/16-Search taxon names](https://github.com/DINA-Web/dina-use-cases/blob/master/taxonomy/16-Search_taxon_names.md)
+* [taxonomy/17-Search taxon by vernacular name](https://github.com/DINA-Web/dina-use-cases/blob/master/taxonomy/17-Search_taxon_by_vernacular_name.md)
 
 ## Course of events
   1. The user selects the specimen record to edit.
