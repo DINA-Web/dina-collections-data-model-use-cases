@@ -1,4 +1,4 @@
-# 2. Recording identification information
+# 17. Recording identification information
 
 ## Background/Motivation
 A collection manager wants to record information from the following (partially overlapping) categories:
