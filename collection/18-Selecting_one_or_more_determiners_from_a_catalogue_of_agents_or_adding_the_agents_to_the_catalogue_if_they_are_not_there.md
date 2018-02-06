@@ -1,4 +1,4 @@
-# 4. Selecting one or more determiners from a catalogue of agents (or adding the agents to the catalogue if they are not there)
+# 18. Selecting one or more determiners from a catalogue of agents (or adding the agents to the catalogue if they are not there)
 
 ## Background/Motivation
 A collection manager wants to select one or more determiners from a catalogue of agents (or add the agents to the catalogue if they are not there).
