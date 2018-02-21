@@ -12,14 +12,17 @@ Lab technician
 - [05. Add a PCR batch](05-Add_a_PCR_batch.md)
 
 ## Course of events
-1. The use enters the well coordinates of the reaction’s tube
+1. The user enters the well coordinates of the reaction’s tube
 1. The user selects the sample to which the PCR reaction will be applied
 1. The user selects the PCR Batch
 1. If required, the user overides values of the gene region and primers from the PCR batch
 
 ## Alternative paths
- 1. Multiple PCR Reactions are created by a bulk upload from a template
-
+ 1. The system provides a PCR Reaction template (e.g. for a 96 well plate)
+ 1. The user fills the information in the template
+ 1. The user selects the PCR Batch
+ 1. The user uploads the template to the system
+The Post-Condition will be for each element filled in the template.
 
 ## Success post-conditions
 
