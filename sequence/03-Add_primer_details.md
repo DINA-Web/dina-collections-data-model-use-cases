@@ -1,8 +1,8 @@
-# 03. Add PCR Primer details
+# 03. Add Primer details
 
 ## Background/Motivationn
 
-A user wants to enter a new PCR primer details.
+A user wants to enter a new primer details.
 
 ## Actors
 Lab technician
@@ -22,7 +22,7 @@ Lab technician
 
 ## Success post-conditions
 
-1. The PCR Primer details are saved in the database.
+1. The Primer details are saved in the database.
 
 ## Notes
 
