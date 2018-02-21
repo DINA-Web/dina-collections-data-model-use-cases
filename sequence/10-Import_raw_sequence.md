@@ -12,7 +12,7 @@ Lab technician
 
 ## Course of events
 1. The user selects and uploads the raw sequence file
-1. The user links the sequence to the Sequence Reaction
+1. The user links the raw sequence file to the Sequence Reaction
 
 ## Alternative paths
 1. The user configures the file name convention to be used for raw sequence files
