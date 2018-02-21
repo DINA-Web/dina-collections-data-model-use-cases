@@ -8,13 +8,14 @@ A user wants to enter a new PCR batch.
 Lab technician
 
 ## Preconditions
-- [03. Add PCR Primer details](03-Add_PCR_primer_details.md)
+- [03. Add Primer details](03-Add_primer_details.md)
 - [04. Add thermocycler profile](04-Add_thermocycler_profile.md)
 
 ## Course of events
 1. The user enters the unique identifier or name of the PCR batch
 1. The user selects the sequencing technology
 1. The user selects the Gene Region
+1. The user selects the forward and reverse Primers
 1. The user selects the Thermocycler Profile
 
 ## Alternative paths
