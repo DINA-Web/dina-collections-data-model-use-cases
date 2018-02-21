@@ -11,10 +11,13 @@ Lab technician
 - Have a sequence file in ab1 format
 
 ## Course of events
-1. The user selects the sequence reaction
-1. The user selects the raw sequence file to import
+1. The user selects and uploads the raw sequence file
+1. The user links the sequence to the Sequence Reaction
 
 ## Alternative paths
+1. The user configure the file name convention to be used for raw sequence files
+1. The system monitors a predefined folder for any new files
+1. For each new file, the system extract the information from the file name and automaticaly links the raw sequences to the Sequence Reaction.
 
 
 ## Success post-conditions
