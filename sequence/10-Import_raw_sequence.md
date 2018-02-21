@@ -15,8 +15,9 @@ Lab technician
 1. The user links the raw sequence file to the Sequence Reaction
 
 ## Alternative paths
-1. The user configures the file name convention to be used for raw sequence files
-1. The system monitors a predefined folder for any new files
+1. The administrator configures a predefined "pattern" for raw sequence file name
+1. The administrator configures a folder where raw sequence files matching this pattern should be added
+1. The system monitors the configured folder
 1. For each new files, the system extract the information from the file name and automaticaly links the raw sequence to the Sequence Reaction.
 
 
