@@ -18,6 +18,7 @@ Lab technician
 1. If required, the user overides values of the gene region and primers from the PCR batch
 
 ## Alternative paths
+ 1. Multiple PCR Reactions are created by a bulk upload from a template
 
 
 ## Success post-conditions
