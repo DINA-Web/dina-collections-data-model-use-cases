@@ -1,4 +1,4 @@
-# 04. Add Termocycler Profile
+# 07. Add Termocycler Profile
 
 ## Background/Motivation
 
@@ -8,7 +8,7 @@ A user wants to enter a new thermocycler profile.
 Lab technician
 
 ## Preconditions
-- [02. Add gene region](02-Add_gene_region.md)
+- [05. Add gene region](05-Add_gene_region.md)
 
 ## Course of events
 1. The user selects the Gene Region

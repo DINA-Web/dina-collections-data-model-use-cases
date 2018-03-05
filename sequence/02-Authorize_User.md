@@ -1,4 +1,4 @@
-# Authorize User
+# 02. Authorize User
 
 A collection manager wants user to be able to access only data for their group following the access rules defined.
 A group normaly defines a research group or a collection.

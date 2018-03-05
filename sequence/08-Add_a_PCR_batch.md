@@ -1,4 +1,4 @@
-# 05. Add a PCR batch
+# 08. Add a PCR batch
 
 ## Background/Motivation
 
@@ -8,8 +8,8 @@ A user wants to enter a new PCR batch.
 Lab technician
 
 ## Preconditions
-- [03. Add Primer details](03-Add_primer_details.md)
-- [04. Add thermocycler profile](04-Add_thermocycler_profile.md)
+- [06. Add Primer details](06-Add_primer_details.md)
+- [07. Add thermocycler profile](07-Add_thermocycler_profile.md)
 
 ## Course of events
 1. The user enters the unique identifier or name of the PCR batch

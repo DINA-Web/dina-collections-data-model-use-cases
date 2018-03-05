@@ -1,4 +1,4 @@
-# 08. Add sequence batch
+# 11. Add sequence batch
 
 ## Background/Motivation
 
@@ -8,7 +8,7 @@ A user wants to enter a new sequence batch.
 Lab technician
 
 ## Preconditions
-- [07. Enter PCR reaction result](07-Enter_PCR_reaction_result.md)
+- [10. Enter PCR reaction result](10-Enter_PCR_reaction_result.md)
 
 ## Course of events
 1. The user selects a source PCR batch

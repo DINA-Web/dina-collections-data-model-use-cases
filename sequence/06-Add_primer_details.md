@@ -1,4 +1,4 @@
-# 03. Add Primer details
+# 06. Add Primer details
 
 ## Background/Motivationn
 
@@ -8,7 +8,7 @@ A user wants to enter a new primer details.
 Lab technician
 
 ## Preconditions
-- [02. Add gene region](02-Add_gene_region.md)
+- [05. Add gene region](05-Add_gene_region.md)
 
 ## Course of events
 1. The user enters a unique code or name of the primer

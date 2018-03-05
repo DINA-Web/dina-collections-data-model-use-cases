@@ -1,4 +1,4 @@
-# 06. Add a PCR reaction
+# 09. Add a PCR reaction
 
 ## Background/Motivationn
 
@@ -8,8 +8,8 @@ A user wants to enter a new PCR reaction for a sample.
 Lab technician
 
 ## Preconditions
-- [01. Add a sample](01-Add_a_sample.md)
-- [05. Add a PCR batch](05-Add_a_PCR_batch.md)
+- [04. Add a sample](04-Add_a_sample.md)
+- [08. Add a PCR batch](08-Add_a_PCR_batch.md)
 
 ## Course of events
 1. The user enters the well coordinates of the reaction’s tube

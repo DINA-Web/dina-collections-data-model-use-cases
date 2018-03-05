@@ -1,4 +1,4 @@
-# 10. Import raw sequence file
+# 13. Import raw sequence file
 
 ## Background/Motivationn
 

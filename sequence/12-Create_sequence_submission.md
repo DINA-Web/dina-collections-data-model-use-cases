@@ -1,4 +1,4 @@
-# 09. Create Sequence Submission
+# 12. Create Sequence Submission
 
 ## Background/Motivation
 
@@ -9,7 +9,7 @@ Lab technician
 
 ## Preconditions
 - A list of submission facilities exists
-- [08. Add sequence batch](08-Add_sequence_batch.md)
+- [11. Add sequence batch](11-Add_sequence_batch.md)
 
 ## Course of events
 1. The user enters a submission name
