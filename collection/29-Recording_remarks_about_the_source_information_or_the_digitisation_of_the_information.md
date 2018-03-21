@@ -1,4 +1,4 @@
-# 15. Recording remarks about the source information or the digitisation of the information
+# 29. Recording remarks about the source information or the digitisation of the information
 
 ## Background/Motivation
 A collection manager wants to record their own remarks about the source information or the digitisation of the information.
