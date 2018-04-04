@@ -21,4 +21,5 @@ None
 The tree is saved in the database and is complety detached from its source (the existing taxonomy).
 
 ## Notes
-When the original taxonomy is modified the storage tree should not follow. They are 2 different things.
+ * When the original taxonomy is modified the storage tree should not follow. They are 2 different things.
+ * The storage tree needs to be searchable
